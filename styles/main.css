@@ -1,0 +1,464 @@
+/* ============================================================
+   Mahjong Social at Solara — Main Stylesheet
+   ============================================================ */
+
+/* --- Custom Properties --- */
+:root {
+  --ivory:  #F7F4ED;
+  --green:  #1E3D2F;
+  --gold:   #D4AF37;
+  --blush:  #E7B5B2;
+  --dark:   #1A1A18;
+
+  --font-heading: 'Cinzel', serif;
+  --font-script:  'Playfair Display', serif;
+}
+
+/* --- Reset --- */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* --- Base --- */
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: var(--font-heading);
+  background-color: var(--ivory);
+  color: var(--dark);
+  line-height: 1.6;
+}
+
+img { display: block; max-width: 100%; }
+a { text-decoration: none; color: inherit; }
+ul { list-style: none; }
+
+/* --- Shared Utilities --- */
+.section-label {
+  display: block;
+  font-family: var(--font-heading);
+  font-size: 0.625rem;       /* 10px */
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 0.75rem;
+}
+
+.divider {
+  width: 40px;
+  height: 1px;
+  background: var(--gold);
+  border: none;
+  margin: 1rem auto;
+}
+
+/* --- Buttons --- */
+.btn {
+  display: inline-block;
+  font-family: var(--font-heading);
+  font-size: 0.75rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  padding: 0.85rem 2.25rem;
+  border-radius: 2px;
+  cursor: pointer;
+  border: none;
+  transition: opacity 0.2s ease;
+}
+.btn:hover { opacity: 0.88; }
+
+.btn--gold {
+  background: var(--gold);
+  color: #fff;
+}
+
+.btn--outline-green {
+  background: transparent;
+  color: var(--green);
+  border: 1.5px solid var(--green);
+}
+
+/* ============================================================
+   NAV
+   ============================================================ */
+.nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--ivory);
+  border-bottom: 1px solid rgba(30, 61, 47, 0.1);
+  padding: 0.6rem 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.nav__logo img {
+  height: 52px;
+  width: auto;
+  object-fit: contain;
+}
+
+.nav__links {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.nav__links a {
+  font-family: var(--font-heading);
+  font-size: 0.65rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--dark);
+  transition: color 0.2s ease;
+}
+.nav__links a:hover { color: var(--gold); }
+
+/* ============================================================
+   HERO
+   ============================================================ */
+.hero {
+  position: relative;
+  height: 100vh;
+  min-height: 520px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero__bg {
+  position: absolute;
+  inset: 0;
+  background: url('../Images/HeroPicture.jpg') center / cover no-repeat;
+}
+
+.hero__overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(30, 61, 47, 0.8);
+}
+
+.hero__content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1.5rem;
+}
+
+.hero__eyebrow {
+  font-family: var(--font-heading);
+  font-size: 0.7rem;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+
+.hero__title {
+  font-family: var(--font-heading);
+  font-size: clamp(2.5rem, 7vw, 5rem);
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ivory);
+  line-height: 1.1;
+}
+
+.hero__location {
+  font-family: var(--font-script);
+  font-style: italic;
+  font-size: clamp(1.1rem, 3vw, 1.75rem);
+  color: var(--gold);
+  margin-top: 0.25rem;
+}
+
+.hero__tagline {
+  font-family: var(--font-script);
+  font-style: italic;
+  font-size: clamp(0.9rem, 2vw, 1.2rem);
+  color: rgba(247, 244, 237, 0.7);
+  margin-bottom: 0.75rem;
+}
+
+/* ============================================================
+   ABOUT
+   ============================================================ */
+.about {
+  background: var(--ivory);
+  padding: 5rem 2rem;
+  text-align: center;
+}
+
+.about__inner {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.about h2 {
+  font-family: var(--font-heading);
+  font-size: clamp(1.1rem, 2.5vw, 1.5rem);
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--green);
+  line-height: 1.4;
+}
+
+.about p {
+  font-family: var(--font-script);
+  font-style: italic;
+  font-size: 1.05rem;
+  color: #555;
+  line-height: 1.85;
+}
+
+/* ============================================================
+   CLASSES
+   ============================================================ */
+.classes {
+  background: #fff;
+  padding: 5rem 2rem;
+}
+
+.classes__inner {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.classes__header {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.classes__header h2 {
+  font-family: var(--font-heading);
+  font-size: clamp(1rem, 2.5vw, 1.4rem);
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--green);
+  margin-top: 0.5rem;
+}
+
+.class-cards {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.class-card {
+  flex: 1;
+  border: 1px solid rgba(30, 61, 47, 0.15);
+  border-radius: 4px;
+  padding: 1.75rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.85rem;
+  transition: box-shadow 0.2s ease;
+}
+.class-card:hover { box-shadow: 0 4px 20px rgba(30, 61, 47, 0.1); }
+
+.class-card__icon {
+  width: 52px;
+  height: 52px;
+  background: var(--green);
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  flex-shrink: 0;
+}
+
+.class-card h3 {
+  font-family: var(--font-heading);
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--green);
+  line-height: 1.5;
+}
+
+.class-card p {
+  font-family: var(--font-script);
+  font-style: italic;
+  font-size: 0.9rem;
+  color: #888;
+  line-height: 1.6;
+}
+
+.classes__cta {
+  text-align: center;
+  margin-top: 2.25rem;
+}
+
+.classes__cta a {
+  font-family: var(--font-heading);
+  font-size: 0.7rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--gold);
+  border-bottom: 1px solid var(--gold);
+  padding-bottom: 2px;
+  transition: opacity 0.2s ease;
+}
+.classes__cta a:hover { opacity: 0.75; }
+
+/* ============================================================
+   TESTIMONIALS
+   ============================================================ */
+.testimonials {
+  background: var(--green);
+  padding: 5rem 2rem;
+  text-align: center;
+}
+
+.testimonials__inner {
+  max-width: 620px;
+  margin: 0 auto;
+}
+
+.testimonials .section-label { color: var(--gold); }
+
+.quote p {
+  font-family: var(--font-script);
+  font-style: italic;
+  font-size: 1.1rem;
+  color: var(--ivory);
+  line-height: 1.8;
+  margin-bottom: 0.75rem;
+}
+
+.quote cite {
+  font-family: var(--font-heading);
+  font-style: normal;
+  font-size: 0.6rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+
+.quote-divider {
+  width: 30px;
+  height: 1px;
+  background: rgba(247, 244, 237, 0.2);
+  border: none;
+  margin: 2rem auto;
+}
+
+/* ============================================================
+   LOCATION TEASER
+   ============================================================ */
+.location-teaser {
+  background: var(--blush);
+  padding: 5rem 2rem;
+  text-align: center;
+}
+
+.location-teaser__inner {
+  max-width: 560px;
+  margin: 0 auto;
+}
+
+.location-teaser .section-label { color: var(--green); }
+
+.location-teaser h2 {
+  font-family: var(--font-heading);
+  font-size: clamp(1rem, 2.5vw, 1.4rem);
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--green);
+  margin-bottom: 0.75rem;
+}
+
+.location-teaser p {
+  font-family: var(--font-script);
+  font-style: italic;
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 1.75rem;
+  line-height: 1.75;
+}
+
+/* ============================================================
+   FOOTER
+   ============================================================ */
+.footer {
+  background: var(--dark);
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.footer__logo {
+  font-family: var(--font-heading);
+  font-size: 0.75rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--ivory);
+  margin-bottom: 0.35rem;
+}
+
+.footer__tagline {
+  font-family: var(--font-script);
+  font-style: italic;
+  font-size: 0.95rem;
+  color: var(--gold);
+  margin-bottom: 1.5rem;
+}
+
+.footer__links {
+  display: flex;
+  justify-content: center;
+  gap: 1.75rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.25rem;
+}
+
+.footer__links a {
+  font-family: var(--font-heading);
+  font-size: 0.6rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgba(247, 244, 237, 0.55);
+  transition: color 0.2s ease;
+}
+.footer__links a:hover { color: var(--gold); }
+
+.footer__copy {
+  font-family: var(--font-script);
+  font-style: italic;
+  font-size: 0.75rem;
+  color: rgba(247, 244, 237, 0.3);
+}
+
+/* ============================================================
+   RESPONSIVE — 768px breakpoint
+   ============================================================ */
+@media (max-width: 768px) {
+  .nav {
+    padding: 0.6rem 1.25rem;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+  }
+
+  .nav__logo img { height: 40px; }
+
+  .nav__links { gap: 1rem; }
+
+  .class-cards { flex-direction: column; }
+
+  .about,
+  .classes,
+  .testimonials,
+  .location-teaser,
+  .footer { padding: 3.5rem 1.25rem; }
+}
