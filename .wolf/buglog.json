@@ -1,4 +1,37 @@
 {
   "version": 1,
-  "bugs": []
+  "bugs": [
+    {
+      "id": "bug-001",
+      "timestamp": "2026-04-25T04:59:31.849Z",
+      "error_message": "CSS fix: background",
+      "file": "styles/main.css",
+      "root_cause": "background: var(--ivory) → var(--green)",
+      "fix": "Changed background: var(--ivory) → var(--green)",
+      "tags": [
+        "auto-detected",
+        "style-fix",
+        "css"
+      ],
+      "related_bugs": [],
+      "occurrences": 4,
+      "last_seen": "2026-04-25T04:59:53.823Z"
+    },
+    {
+      "id": "bug-002",
+      "timestamp": "2026-04-25T04:59:58.534Z",
+      "error_message": "Wrong reference: blush should be ivory",
+      "file": "styles/main.css",
+      "root_cause": "Used \"blush\" instead of \"ivory\"",
+      "fix": "Changed blush → ivory",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "css"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-04-25T04:59:58.534Z"
+    }
+  ]
 }
