@@ -18,6 +18,9 @@ npm-debug.log*
 *.suo
 *.user
 
+# Visual brainstorming companion
+.superpowers/
+
 # OpenWolf runtime (do not commit transient state)
 .wolf/designqc-captures/
 .wolf/cron-state.json
