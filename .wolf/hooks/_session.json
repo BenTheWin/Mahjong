@@ -1,0 +1,44 @@
+{
+  "session_id": "session-2026-04-25-2219",
+  "started": "2026-04-25T03:19:17.758Z",
+  "files_read": {
+    "c:/Code/Mahjong/.wolf/anatomy.md": {
+      "count": 1,
+      "tokens": 0,
+      "first_read": "2026-04-25T03:22:16.601Z"
+    },
+    "c:/Code/Mahjong/.wolf/cerebrum.md": {
+      "count": 1,
+      "tokens": 0,
+      "first_read": "2026-04-25T03:22:16.750Z"
+    },
+    "c:/Code/Mahjong/CLAUDE.md": {
+      "count": 1,
+      "tokens": 57,
+      "first_read": "2026-04-25T03:23:02.331Z"
+    }
+  },
+  "files_written": [
+    {
+      "file": "c:/Code/Mahjong/.gitignore",
+      "action": "create",
+      "tokens": 80,
+      "at": "2026-04-25T03:23:07.717Z"
+    },
+    {
+      "file": "c:/Code/Mahjong/CLAUDE.md",
+      "action": "edit",
+      "tokens": 338,
+      "at": "2026-04-25T03:23:19.100Z"
+    }
+  ],
+  "edit_counts": {
+    ".gitignore": 1,
+    "CLAUDE.md": 1
+  },
+  "anatomy_hits": 1,
+  "anatomy_misses": 2,
+  "repeated_reads_warned": 0,
+  "cerebrum_warnings": 0,
+  "stop_count": 0
+}
