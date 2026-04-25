@@ -1,0 +1,25 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+dist/
+build/
+.env
+.env.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# IDE
+.vscode/
+*.suo
+*.user
+
+# OpenWolf runtime (do not commit transient state)
+.wolf/designqc-captures/
+.wolf/cron-state.json
+.wolf/token-ledger.json
+.wolf/suggestions.json
