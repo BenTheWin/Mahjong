@@ -39,7 +39,7 @@ ul { list-style: none; }
 .section-label {
   display: block;
   font-family: var(--font-heading);
-  font-size: 0.625rem;       /* 10px */
+  font-size: 0.875rem;
   letter-spacing: 0.3em;
   text-transform: uppercase;
   color: var(--gold);
@@ -51,17 +51,17 @@ ul { list-style: none; }
   height: 1px;
   background: var(--gold);
   border: none;
-  margin: 1rem auto;
+  margin: 1.25rem auto;
 }
 
 /* --- Buttons --- */
 .btn {
   display: inline-block;
   font-family: var(--font-heading);
-  font-size: 0.75rem;
+  font-size: 1rem;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  padding: 0.85rem 2.25rem;
+  padding: 1rem 2.5rem;
   border-radius: 2px;
   cursor: pointer;
   border: none;
@@ -110,8 +110,8 @@ ul { list-style: none; }
 
 .nav__links a {
   font-family: var(--font-heading);
-  font-size: 0.65rem;
-  letter-spacing: 0.14em;
+  font-size: 1rem;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--dark);
   transition: color 0.2s ease;
@@ -123,8 +123,8 @@ ul { list-style: none; }
    ============================================================ */
 .hero {
   position: relative;
-  height: 100vh;
-  min-height: 520px;
+  height: 50vh;
+  min-height: 380px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -155,7 +155,7 @@ ul { list-style: none; }
 
 .hero__eyebrow {
   font-family: var(--font-heading);
-  font-size: 0.7rem;
+  font-size: 1rem;
   letter-spacing: 0.35em;
   text-transform: uppercase;
   color: var(--gold);
@@ -174,7 +174,7 @@ ul { list-style: none; }
 .hero__location {
   font-family: var(--font-script);
   font-style: italic;
-  font-size: clamp(1.1rem, 3vw, 1.75rem);
+  font-size: clamp(1.25rem, 3vw, 2rem);
   color: var(--gold);
   margin-top: 0.25rem;
 }
@@ -182,8 +182,8 @@ ul { list-style: none; }
 .hero__tagline {
   font-family: var(--font-script);
   font-style: italic;
-  font-size: clamp(0.9rem, 2vw, 1.2rem);
-  color: rgba(247, 244, 237, 0.7);
+  font-size: clamp(1rem, 2vw, 1.35rem);
+  color: rgba(247, 244, 237, 0.75);
   margin-bottom: 0.75rem;
 }
 
@@ -197,13 +197,13 @@ ul { list-style: none; }
 }
 
 .about__inner {
-  max-width: 640px;
+  max-width: 680px;
   margin: 0 auto;
 }
 
 .about h2 {
   font-family: var(--font-heading);
-  font-size: clamp(1.1rem, 2.5vw, 1.5rem);
+  font-size: clamp(1.4rem, 2.5vw, 1.9rem);
   font-weight: 600;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -214,7 +214,7 @@ ul { list-style: none; }
 .about p {
   font-family: var(--font-script);
   font-style: italic;
-  font-size: 1.05rem;
+  font-size: 1.2rem;
   color: #555;
   line-height: 1.85;
 }
@@ -223,12 +223,12 @@ ul { list-style: none; }
    CLASSES
    ============================================================ */
 .classes {
-  background: #fff;
+  background: var(--ivory);
   padding: 5rem 2rem;
 }
 
 .classes__inner {
-  max-width: 900px;
+  max-width: 960px;
   margin: 0 auto;
 }
 
@@ -239,7 +239,7 @@ ul { list-style: none; }
 
 .classes__header h2 {
   font-family: var(--font-heading);
-  font-size: clamp(1rem, 2.5vw, 1.4rem);
+  font-size: clamp(1.4rem, 2.5vw, 1.9rem);
   font-weight: 600;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -256,32 +256,33 @@ ul { list-style: none; }
   flex: 1;
   border: 1px solid rgba(30, 61, 47, 0.15);
   border-radius: 4px;
-  padding: 1.75rem 1.25rem;
+  padding: 2rem 1.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  gap: 0.85rem;
+  gap: 1rem;
+  background: #fff;
   transition: box-shadow 0.2s ease;
 }
 .class-card:hover { box-shadow: 0 4px 20px rgba(30, 61, 47, 0.1); }
 
 .class-card__icon {
-  width: 52px;
-  height: 52px;
+  width: 56px;
+  height: 56px;
   background: var(--green);
   border-radius: 6px;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   flex-shrink: 0;
 }
 
 .class-card h3 {
   font-family: var(--font-heading);
-  font-size: 0.7rem;
-  letter-spacing: 0.12em;
+  font-size: 1rem;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--green);
   line-height: 1.5;
@@ -290,9 +291,9 @@ ul { list-style: none; }
 .class-card p {
   font-family: var(--font-script);
   font-style: italic;
-  font-size: 0.9rem;
-  color: #888;
-  line-height: 1.6;
+  font-size: 1.05rem;
+  color: #777;
+  line-height: 1.65;
 }
 
 .classes__cta {
@@ -302,7 +303,7 @@ ul { list-style: none; }
 
 .classes__cta a {
   font-family: var(--font-heading);
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   letter-spacing: 0.16em;
   text-transform: uppercase;
   color: var(--gold);
@@ -322,7 +323,7 @@ ul { list-style: none; }
 }
 
 .testimonials__inner {
-  max-width: 620px;
+  max-width: 680px;
   margin: 0 auto;
 }
 
@@ -331,16 +332,16 @@ ul { list-style: none; }
 .quote p {
   font-family: var(--font-script);
   font-style: italic;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   color: var(--ivory);
   line-height: 1.8;
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.85rem;
 }
 
 .quote cite {
   font-family: var(--font-heading);
   font-style: normal;
-  font-size: 0.6rem;
+  font-size: 0.85rem;
   letter-spacing: 0.2em;
   text-transform: uppercase;
   color: var(--gold);
@@ -364,7 +365,7 @@ ul { list-style: none; }
 }
 
 .location-teaser__inner {
-  max-width: 560px;
+  max-width: 600px;
   margin: 0 auto;
 }
 
@@ -372,21 +373,21 @@ ul { list-style: none; }
 
 .location-teaser h2 {
   font-family: var(--font-heading);
-  font-size: clamp(1rem, 2.5vw, 1.4rem);
+  font-size: clamp(1.4rem, 2.5vw, 1.9rem);
   font-weight: 600;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--green);
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.85rem;
 }
 
 .location-teaser p {
   font-family: var(--font-script);
   font-style: italic;
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: #555;
-  margin-bottom: 1.75rem;
-  line-height: 1.75;
+  margin-bottom: 2rem;
+  line-height: 1.8;
 }
 
 /* ============================================================
@@ -400,7 +401,7 @@ ul { list-style: none; }
 
 .footer__logo {
   font-family: var(--font-heading);
-  font-size: 0.75rem;
+  font-size: 1rem;
   letter-spacing: 0.2em;
   text-transform: uppercase;
   color: var(--ivory);
@@ -410,7 +411,7 @@ ul { list-style: none; }
 .footer__tagline {
   font-family: var(--font-script);
   font-style: italic;
-  font-size: 0.95rem;
+  font-size: 1.1rem;
   color: var(--gold);
   margin-bottom: 1.5rem;
 }
@@ -425,10 +426,10 @@ ul { list-style: none; }
 
 .footer__links a {
   font-family: var(--font-heading);
-  font-size: 0.6rem;
-  letter-spacing: 0.14em;
+  font-size: 0.85rem;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: rgba(247, 244, 237, 0.55);
+  color: rgba(247, 244, 237, 0.65);
   transition: color 0.2s ease;
 }
 .footer__links a:hover { color: var(--gold); }
@@ -436,8 +437,8 @@ ul { list-style: none; }
 .footer__copy {
   font-family: var(--font-script);
   font-style: italic;
-  font-size: 0.75rem;
-  color: rgba(247, 244, 237, 0.3);
+  font-size: 0.9rem;
+  color: rgba(247, 244, 237, 0.35);
 }
 
 /* ============================================================
@@ -452,7 +453,12 @@ ul { list-style: none; }
 
   .nav__logo img { height: 40px; }
 
-  .nav__links { gap: 1rem; }
+  .nav__links {
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .nav__links a { font-size: 0.85rem; }
 
   .class-cards { flex-direction: column; }
 
