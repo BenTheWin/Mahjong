@@ -39,7 +39,7 @@ ul { list-style: none; }
 .section-label {
   display: block;
   font-family: var(--font-heading);
-  font-size: 0.875rem;
+  font-size: 1.25rem;
   letter-spacing: 0.3em;
   text-transform: uppercase;
   color: var(--gold);
@@ -110,7 +110,7 @@ ul { list-style: none; }
 
 .nav__links a {
   font-family: var(--font-heading);
-  font-size: 1rem;
+  font-size: 1.25rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--dark);
@@ -155,7 +155,7 @@ ul { list-style: none; }
 
 .hero__eyebrow {
   font-family: var(--font-heading);
-  font-size: 1rem;
+  font-size: 1.25rem;
   letter-spacing: 0.35em;
   text-transform: uppercase;
   color: var(--gold);
@@ -223,7 +223,7 @@ ul { list-style: none; }
    CLASSES
    ============================================================ */
 .classes {
-  background: var(--ivory);
+  background: var(--green);
   padding: 5rem 2rem;
 }
 
@@ -243,7 +243,7 @@ ul { list-style: none; }
   font-weight: 600;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: var(--green);
+  color: var(--ivory);
   margin-top: 0.5rem;
 }
 
@@ -317,7 +317,7 @@ ul { list-style: none; }
    TESTIMONIALS
    ============================================================ */
 .testimonials {
-  background: var(--green);
+  background: var(--blush);
   padding: 5rem 2rem;
   text-align: center;
 }
@@ -327,13 +327,13 @@ ul { list-style: none; }
   margin: 0 auto;
 }
 
-.testimonials .section-label { color: var(--gold); }
+.testimonials .section-label { color: var(--green); }
 
 .quote p {
   font-family: var(--font-script);
   font-style: italic;
   font-size: 1.3rem;
-  color: var(--ivory);
+  color: var(--dark);
   line-height: 1.8;
   margin-bottom: 0.85rem;
 }
@@ -344,13 +344,13 @@ ul { list-style: none; }
   font-size: 0.85rem;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  color: var(--gold);
+  color: var(--green);
 }
 
 .quote-divider {
   width: 30px;
   height: 1px;
-  background: rgba(247, 244, 237, 0.2);
+  background: rgba(30, 61, 47, 0.2);
   border: none;
   margin: 2rem auto;
 }
@@ -359,7 +359,7 @@ ul { list-style: none; }
    LOCATION TEASER
    ============================================================ */
 .location-teaser {
-  background: var(--blush);
+  background: var(--ivory);
   padding: 5rem 2rem;
   text-align: center;
 }
