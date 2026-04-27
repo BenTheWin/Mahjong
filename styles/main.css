@@ -442,6 +442,170 @@ ul { list-style: none; }
 }
 
 /* ============================================================
+   PAGE HEADER (interior pages)
+   ============================================================ */
+.page-header {
+  background: var(--green);
+  padding: 4.5rem 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.page-header__eyebrow {
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+
+.page-header h1 {
+  font-family: var(--font-heading);
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ivory);
+  line-height: 1.15;
+}
+
+.page-header__sub {
+  font-family: var(--font-script);
+  font-style: italic;
+  font-size: clamp(1rem, 2vw, 1.25rem);
+  color: rgba(247, 244, 237, 0.65);
+  margin-top: 0.25rem;
+}
+
+/* ============================================================
+   LOCATION MAIN
+   ============================================================ */
+.location-main {
+  background: var(--ivory);
+  padding: 5rem 2rem;
+}
+
+.location-grid {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3.5rem;
+  align-items: start;
+}
+
+.location-map {
+  aspect-ratio: 4 / 3;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 4px 24px rgba(30, 61, 47, 0.14);
+}
+
+.location-map iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  display: block;
+}
+
+.location-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+}
+
+.location-info address {
+  font-family: var(--font-script);
+  font-style: italic;
+  font-size: 1.25rem;
+  color: var(--dark);
+  line-height: 1.8;
+  margin-top: 0.4rem;
+}
+
+.location-info__note {
+  font-family: var(--font-script);
+  font-style: italic;
+  font-size: 0.9rem;
+  color: rgba(26, 26, 24, 0.45);
+  margin-top: 0.4rem;
+}
+
+.location-hours {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 0.4rem;
+}
+
+.location-hours li {
+  font-family: var(--font-script);
+  font-style: italic;
+  font-size: 1.1rem;
+  color: #666;
+  line-height: 1.6;
+}
+
+.location-hours li strong {
+  font-family: var(--font-heading);
+  font-style: normal;
+  font-size: 0.8rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--dark);
+  display: block;
+  margin-bottom: 0.15rem;
+}
+
+.location-hours__note {
+  font-size: 1rem !important;
+  color: rgba(26, 26, 24, 0.5) !important;
+}
+
+/* active nav link on Location page */
+.nav__links a[aria-current="page"] {
+  color: var(--gold);
+}
+
+/* ============================================================
+   LOCATION PROXIMITY
+   ============================================================ */
+.location-proximity {
+  background: var(--green);
+  padding: 5rem 2rem;
+  text-align: center;
+}
+
+.location-proximity__inner {
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.location-proximity .section-label { color: var(--gold); }
+
+.location-proximity h2 {
+  font-family: var(--font-heading);
+  font-size: clamp(1.4rem, 2.5vw, 1.9rem);
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ivory);
+  line-height: 1.4;
+  margin-bottom: 0.5rem;
+}
+
+.location-proximity p {
+  font-family: var(--font-script);
+  font-style: italic;
+  font-size: 1.2rem;
+  color: rgba(247, 244, 237, 0.72);
+  line-height: 1.85;
+}
+
+/* ============================================================
    RESPONSIVE — 768px breakpoint
    ============================================================ */
 @media (max-width: 768px) {
@@ -462,9 +626,15 @@ ul { list-style: none; }
 
   .class-cards { flex-direction: column; }
 
+  .location-grid { grid-template-columns: 1fr; gap: 2rem; }
+
   .about,
   .classes,
   .testimonials,
   .location-teaser,
+  .location-main,
+  .location-proximity,
   .footer { padding: 3.5rem 1.25rem; }
+
+  .page-header { padding: 3rem 1.25rem; }
 }
