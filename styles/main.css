@@ -606,6 +606,133 @@ ul { list-style: none; }
 }
 
 /* ============================================================
+   ABOUT PAGE — STORY SECTION
+   ============================================================ */
+.about-story {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 520px;
+}
+
+.about-story__image {
+  overflow: hidden;
+}
+
+.about-story__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.about-story__content {
+  background: var(--ivory);
+  padding: 5rem 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.about-story__content h2 {
+  font-family: var(--font-heading);
+  font-size: clamp(1.4rem, 2.5vw, 1.9rem);
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--green);
+  line-height: 1.4;
+  margin-bottom: 0.25rem;
+}
+
+.about-story__content p {
+  font-family: var(--font-script);
+  font-style: italic;
+  font-size: 1.15rem;
+  color: #555;
+  line-height: 1.85;
+}
+
+/* ============================================================
+   ABOUT PAGE — FAQ SECTION
+   ============================================================ */
+.about-faq {
+  background: var(--green);
+  padding: 5rem 2rem;
+}
+
+.about-faq__header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.about-faq__header h2 {
+  font-family: var(--font-heading);
+  font-size: clamp(1.4rem, 2.5vw, 1.9rem);
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ivory);
+  margin-top: 0.25rem;
+}
+
+.about-faq__list {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.about-faq__item {
+  padding: 1.4rem 0;
+}
+
+.about-faq__item summary {
+  font-family: var(--font-heading);
+  font-size: 1rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ivory);
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.about-faq__item summary::-webkit-details-marker { display: none; }
+
+.about-faq__item summary::after {
+  content: '+';
+  font-family: var(--font-heading);
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: var(--gold);
+  flex-shrink: 0;
+  transition: transform 0.2s ease;
+}
+
+.about-faq__item[open] summary::after {
+  content: '\00D7';
+}
+
+.about-faq__item p {
+  font-family: var(--font-script);
+  font-style: italic;
+  font-size: 1.1rem;
+  color: rgba(247, 244, 237, 0.72);
+  line-height: 1.8;
+  padding-top: 0.85rem;
+}
+
+.about-faq__divider {
+  width: 100%;
+  height: 1px;
+  background: rgba(247, 244, 237, 0.15);
+  border: none;
+  margin: 0;
+}
+
+/* ============================================================
    RESPONSIVE — 768px breakpoint
    ============================================================ */
 @media (max-width: 768px) {
@@ -637,4 +764,18 @@ ul { list-style: none; }
   .footer { padding: 3.5rem 1.25rem; }
 
   .page-header { padding: 3rem 1.25rem; }
+
+  .about-story {
+    grid-template-columns: 1fr;
+  }
+
+  .about-story__image {
+    height: 280px;
+  }
+
+  .about-story__content {
+    padding: 3.5rem 1.25rem;
+  }
+
+  .about-faq { padding: 3.5rem 1.25rem; }
 }
