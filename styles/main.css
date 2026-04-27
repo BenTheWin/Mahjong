@@ -733,6 +733,84 @@ ul { list-style: none; }
 }
 
 /* ============================================================
+   CONTACT PAGE
+   ============================================================ */
+.contact {
+  background: var(--ivory);
+  padding: 5rem 2rem;
+}
+
+.contact__inner {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-group label {
+  font-family: var(--font-heading);
+  font-size: 0.78rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--green);
+}
+
+.form-group input,
+.form-group textarea {
+  background: #fff;
+  border: 1.5px solid rgba(30, 61, 47, 0.25);
+  border-radius: 4px;
+  padding: 0.85rem 1rem;
+  font-family: var(--font-script);
+  font-style: italic;
+  font-size: 1rem;
+  color: var(--dark);
+  transition: border-color 0.2s;
+  resize: vertical;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--gold);
+}
+
+.contact-form .btn {
+  align-self: flex-start;
+  margin-top: 0.5rem;
+}
+
+.contact__thanks {
+  text-align: center;
+}
+
+.contact__thanks-text {
+  font-family: var(--font-script);
+  font-style: italic;
+  font-size: 1.2rem;
+  color: #555;
+  line-height: 1.85;
+  margin-bottom: 2rem;
+}
+
+.contact__thanks-actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* ============================================================
    RESPONSIVE — 768px breakpoint
    ============================================================ */
 @media (max-width: 768px) {
@@ -778,4 +856,6 @@ ul { list-style: none; }
   }
 
   .about-faq { padding: 3.5rem 1.25rem; }
+
+  .contact { padding: 3.5rem 1.25rem; }
 }
