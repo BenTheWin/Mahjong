@@ -4,14 +4,26 @@
 
 /* --- Custom Properties --- */
 :root {
-  --ivory:  #F7F4ED;
-  --green:  #1E3D2F;
-  --gold:   #D4AF37;
-  --blush:  #E7B5B2;
-  --dark:   #1A1A18;
+  --ivory:        #F7F4ED;
+  --green:        #1E3D2F;
+  --gold:         #D4AF37;
+  --gold-deep:    #C09A28;
+  --blush:        #E7B5B2;
+  --dark:         #1A1A18;
+  --muted:        rgba(26, 26, 24, 0.55);
+  --muted-light:  rgba(247, 244, 237, 0.68);
 
   --font-heading: 'Cinzel', serif;
   --font-script:  'Playfair Display', serif;
+
+  --space-xs:  4px;
+  --space-sm:  8px;
+  --space-md:  16px;
+  --space-lg:  24px;
+  --space-xl:  32px;
+  --space-2xl: 48px;
+  --space-3xl: 64px;
+  --space-4xl: 96px;
 }
 
 /* --- Reset --- */
@@ -39,7 +51,7 @@ ul { list-style: none; }
 .section-label {
   display: block;
   font-family: var(--font-heading);
-  font-size: 1.25rem;
+  font-size: 0.75rem;
   letter-spacing: 0.3em;
   text-transform: uppercase;
   color: var(--gold);
@@ -54,6 +66,28 @@ ul { list-style: none; }
   margin: 1.25rem auto;
 }
 
+/* Left-aligned divider for non-centered sections */
+.divider--left {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* Tighter divider for FAQ header */
+.divider--faq {
+  margin: 1rem auto 0;
+}
+
+/* Tight vertical margin, no auto centering */
+.divider--tight {
+  margin: 0.25rem 0;
+}
+
+/* Softer divider for proximity section */
+.divider--proximity {
+  background: rgba(212, 175, 55, 0.4);
+  margin: 1.25rem auto;
+}
+
 /* --- Buttons --- */
 .btn {
   display: inline-block;
@@ -65,19 +99,23 @@ ul { list-style: none; }
   border-radius: 2px;
   cursor: pointer;
   border: none;
-  transition: opacity 0.2s ease;
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
 }
-.btn:hover { opacity: 0.88; }
 
 .btn--gold {
   background: var(--gold);
   color: #fff;
 }
+.btn--gold:hover { background: var(--gold-deep); }
 
 .btn--outline-green {
   background: transparent;
   color: var(--green);
   border: 1.5px solid var(--green);
+}
+.btn--outline-green:hover {
+  background: var(--green);
+  color: var(--ivory);
 }
 
 /* ============================================================
@@ -89,6 +127,7 @@ ul { list-style: none; }
   z-index: 100;
   background: var(--ivory);
   border-bottom: 1px solid rgba(30, 61, 47, 0.1);
+  box-shadow: 0 1px 12px rgba(30, 61, 47, 0.07);
   padding: 0.6rem 2.5rem;
   display: flex;
   align-items: center;
@@ -118,13 +157,16 @@ ul { list-style: none; }
 }
 .nav__links a:hover { color: var(--gold); }
 
+/* Active nav link */
+.nav__links a[aria-current="page"] { color: var(--gold); }
+
 /* ============================================================
    HERO
    ============================================================ */
 .hero {
   position: relative;
-  height: 50vh;
-  min-height: 380px;
+  height: 55vh;
+  min-height: 420px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -215,7 +257,7 @@ ul { list-style: none; }
   font-family: var(--font-script);
   font-style: italic;
   font-size: 1.2rem;
-  color: #555;
+  color: var(--muted);
   line-height: 1.85;
 }
 
@@ -263,9 +305,12 @@ ul { list-style: none; }
   text-align: center;
   gap: 1rem;
   background: var(--ivory);
-  transition: box-shadow 0.2s ease;
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
 }
-.class-card:hover { box-shadow: 0 4px 20px rgba(30, 61, 47, 0.1); }
+.class-card:hover {
+  box-shadow: 0 6px 28px rgba(30, 61, 47, 0.14);
+  transform: translateY(-2px);
+}
 
 .class-card__icon {
   width: 56px;
@@ -275,8 +320,12 @@ ul { list-style: none; }
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.6rem;
   flex-shrink: 0;
+}
+
+.class-card__icon svg {
+  width: 38px;
+  height: 38px;
 }
 
 .class-card h3 {
@@ -292,7 +341,7 @@ ul { list-style: none; }
   font-family: var(--font-script);
   font-style: italic;
   font-size: 1.05rem;
-  color: #777;
+  color: var(--muted);
   line-height: 1.65;
 }
 
@@ -309,9 +358,12 @@ ul { list-style: none; }
   color: var(--gold);
   border-bottom: 1px solid var(--gold);
   padding-bottom: 2px;
-  transition: opacity 0.2s ease;
+  transition: color 0.2s ease, border-color 0.2s ease;
 }
-.classes__cta a:hover { opacity: 0.75; }
+.classes__cta a:hover {
+  color: var(--gold-deep);
+  border-color: var(--gold-deep);
+}
 
 /* ============================================================
    TESTIMONIALS
@@ -385,7 +437,7 @@ ul { list-style: none; }
   font-family: var(--font-script);
   font-style: italic;
   font-size: 1.2rem;
-  color: #555;
+  color: var(--muted);
   margin-bottom: 2rem;
   line-height: 1.8;
 }
@@ -438,7 +490,7 @@ ul { list-style: none; }
   font-family: var(--font-script);
   font-style: italic;
   font-size: 0.9rem;
-  color: rgba(247, 244, 237, 0.35);
+  color: rgba(247, 244, 237, 0.55);
 }
 
 /* ============================================================
@@ -456,7 +508,7 @@ ul { list-style: none; }
 
 .page-header__eyebrow {
   font-family: var(--font-heading);
-  font-size: 1.1rem;
+  font-size: 0.75rem;
   letter-spacing: 0.35em;
   text-transform: uppercase;
   color: var(--gold);
@@ -476,7 +528,7 @@ ul { list-style: none; }
   font-family: var(--font-script);
   font-style: italic;
   font-size: clamp(1rem, 2vw, 1.25rem);
-  color: rgba(247, 244, 237, 0.65);
+  color: var(--muted-light);
   margin-top: 0.25rem;
 }
 
@@ -545,7 +597,7 @@ ul { list-style: none; }
   font-family: var(--font-script);
   font-style: italic;
   font-size: 1.1rem;
-  color: #666;
+  color: var(--muted);
   line-height: 1.6;
 }
 
@@ -560,14 +612,9 @@ ul { list-style: none; }
   margin-bottom: 0.15rem;
 }
 
-.location-hours__note {
-  font-size: 1rem !important;
-  color: rgba(26, 26, 24, 0.5) !important;
-}
-
-/* active nav link on Location page */
-.nav__links a[aria-current="page"] {
-  color: var(--gold);
+.location-hours li.location-hours__note {
+  font-size: 1rem;
+  color: rgba(26, 26, 24, 0.5);
 }
 
 /* ============================================================
@@ -601,7 +648,7 @@ ul { list-style: none; }
   font-family: var(--font-script);
   font-style: italic;
   font-size: 1.2rem;
-  color: rgba(247, 244, 237, 0.72);
+  color: var(--muted-light);
   line-height: 1.85;
 }
 
@@ -649,8 +696,13 @@ ul { list-style: none; }
   font-family: var(--font-script);
   font-style: italic;
   font-size: 1.15rem;
-  color: #555;
+  color: var(--muted);
   line-height: 1.85;
+}
+
+/* Left-aligned divider inside story content */
+.about-story__content .divider {
+  margin: 0.75rem 0 1.25rem;
 }
 
 /* ============================================================
@@ -719,7 +771,7 @@ ul { list-style: none; }
   font-family: var(--font-script);
   font-style: italic;
   font-size: 1.1rem;
-  color: rgba(247, 244, 237, 0.72);
+  color: var(--muted-light);
   line-height: 1.8;
   padding-top: 0.85rem;
 }
@@ -748,7 +800,7 @@ ul { list-style: none; }
 .contact-form {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 1.75rem;
 }
 
 .form-group {
@@ -767,22 +819,28 @@ ul { list-style: none; }
 
 .form-group input,
 .form-group textarea {
-  background: #fff;
+  background: var(--ivory);
   border: 1.5px solid rgba(30, 61, 47, 0.25);
   border-radius: 4px;
-  padding: 0.85rem 1rem;
+  padding: 0.9rem 1rem;
   font-family: var(--font-script);
   font-style: italic;
   font-size: 1rem;
   color: var(--dark);
-  transition: border-color 0.2s;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
   resize: vertical;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: rgba(26, 26, 24, 0.35);
 }
 
 .form-group input:focus,
 .form-group textarea:focus {
   outline: none;
   border-color: var(--gold);
+  box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.18);
 }
 
 .contact-form .btn {
@@ -798,7 +856,7 @@ ul { list-style: none; }
   font-family: var(--font-script);
   font-style: italic;
   font-size: 1.2rem;
-  color: #555;
+  color: var(--muted);
   line-height: 1.85;
   margin-bottom: 2rem;
 }
@@ -808,6 +866,17 @@ ul { list-style: none; }
   gap: 1rem;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+/* ============================================================
+   REDUCED MOTION
+   ============================================================ */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+  html { scroll-behavior: auto; }
 }
 
 /* ============================================================
