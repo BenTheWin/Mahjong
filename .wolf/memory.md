@@ -3,6 +3,12 @@
 > Chronological action log. Hooks and AI append to this file automatically.
 > Old sessions are consolidated by the daemon weekly.
 
+## Session: 2026-04-27
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 16:55 | Created Location page with Google Maps embed, address, hours, OU proximity callout | location.html, styles/main.css | Committed & pushed b7a8900 | ~3500 |
+
 ## Session: 2026-04-25 22:19
 
 | Time | Action | File(s) | Outcome | ~Tokens |
@@ -56,3 +62,79 @@
 
 | Time | Action | File(s) | Outcome | ~Tokens |
 |------|--------|---------|---------|--------|
+
+## Session: 2026-04-27 23:57
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-04-27 16:42
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-04-27 16:42
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 16:53 | Created ../../Users/Reela/.claude/plans/so-far-the-client-radiant-kernighan.md | — | ~1247 |
+| 16:54 | Created location.html | — | ~1056 |
+| 16:55 | Edited styles/main.css | modified media() | ~1156 |
+| 16:55 | Session end: 3 writes across 3 files (so-far-the-client-radiant-kernighan.md, location.html, main.css) | 5 reads | ~7492 tok |
+
+## Session: 2026-04-27 18:18
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 18:26 | Created ../../Users/Reela/.claude/plans/the-next-page-i-piped-treasure.md | — | ~1122 |
+| 18:27 | Created about.html | — | ~1410 |
+| 18:27 | Edited styles/main.css | modified media() | ~772 |
+| 18:28 | Edited styles/main.css | CSS: grid-template-columns, height | ~71 |
+| 18:28 | Session end: 4 writes across 3 files (the-next-page-i-piped-treasure.md, about.html, main.css) | 6 reads | ~10197 tok |
+
+## Session: 2026-04-27 18:53
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 18:56 | Created ../../Users/Reela/.claude/plans/i-want-to-do-silly-eagle.md | — | ~1196 |
+| 18:58 | Created contact.html | — | ~765 |
+| 18:58 | Created contact-thanks.html | — | ~591 |
+| 18:59 | Edited styles/main.css | 2→4 lines | ~24 |
+| 18:59 | Edited styles/main.css | expanded (+78 lines) | ~441 |
+| 18:59 | Session end: 5 writes across 4 files (i-want-to-do-silly-eagle.md, contact.html, contact-thanks.html, main.css) | 5 reads | ~10252 tok |
+
+## Session: 2026-04-28 19:24
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 19:32 | Created .impeccable.md | — | ~600 |
+| 19:36 | Created styles/main.css | — | ~5329 |
+| 19:36 | Edited index.html | 2→3 lines | ~77 |
+| 19:36 | Edited index.html | expanded (+39 lines) | ~864 |
+| 19:36 | Edited about.html | 2→3 lines | ~72 |
+| 19:37 | Edited about.html | 6→6 lines | ~63 |
+| 19:37 | Edited about.html | inline fix | ~7 |
+| 19:37 | Edited about.html | "divider" → "divider divider--faq" | ~11 |
+| 19:37 | Edited location.html | 2→3 lines | ~74 |
+| 19:37 | Edited location.html | 6→6 lines | ~60 |
+| 19:37 | Edited location.html | "divider" → "divider divider--left" | ~26 |
+| 19:37 | Edited styles/main.css | CSS: margin | ~44 |
+| 19:37 | Edited location.html | "divider divider--left" → "divider divider--tight" | ~12 |
+| 19:37 | Edited location.html | "divider" → "divider divider--proximit" | ~12 |
+| 19:38 | Edited contact.html | 2→3 lines | ~77 |
+| 19:38 | Edited contact.html | 6→6 lines | ~68 |
+| 19:38 | Edited contact-thanks.html | 2→3 lines | ~66 |
+| 19:38 | Edited contact-thanks.html | 6→6 lines | ~67 |
+| 19:39 | First-pass polish: SVG tile icons, brand token colors, button hovers, focus rings, semantic HTML, meta descriptions, reduced-motion | styles/main.css, index.html, about.html, location.html, contact.html, contact-thanks.html | Committed and pushed (765cacf) | ~6000 tok |
+| 19:39 | Session end: 18 writes across 7 files (.impeccable.md, main.css, index.html, about.html, location.html) | 11 reads | ~17516 tok |
+
+## Session: 2026-05-01 16:44
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-05-01 18:16
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 18:28 | Wrapped booking.html with full nav/page-header/footer matching site theme; iframe preserved | booking.html, styles/main.css | committed | ~900 |
