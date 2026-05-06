@@ -291,11 +291,13 @@ ul { list-style: none; }
 
 .class-cards {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 1.5rem;
 }
 
 .class-card {
-  flex: 1;
+  flex: 0 0 calc(33.333% - 1rem);
   border: 1px solid rgba(30, 61, 47, 0.15);
   border-radius: 4px;
   padding: 2rem 1.5rem;
@@ -956,6 +958,7 @@ ul { list-style: none; }
   .nav__links a { font-size: 0.85rem; }
 
   .class-cards { flex-direction: column; }
+  .class-card { flex: none; width: 100%; }
 
   .location-grid { grid-template-columns: 1fr; gap: 2rem; }
 
