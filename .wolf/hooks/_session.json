@@ -1,18 +1,254 @@
 {
-  "session_id": "session-2026-04-25-0015",
-  "started": "2026-04-25T05:15:32.544Z",
+  "session_id": "session-2026-05-06-1726",
+  "started": "2026-05-06T22:26:56.336Z",
   "files_read": {
+    "c:/Code/Mahjong/.wolf/cerebrum.md": {
+      "count": 1,
+      "tokens": 0,
+      "first_read": "2026-05-06T23:01:34.193Z"
+    },
     "c:/Code/Mahjong/.wolf/anatomy.md": {
       "count": 1,
       "tokens": 0,
-      "first_read": "2026-04-25T05:16:22.405Z"
+      "first_read": "2026-05-06T23:01:34.281Z"
+    },
+    "c:/Code/Mahjong/contact-thanks.html": {
+      "count": 1,
+      "tokens": 0,
+      "first_read": "2026-05-06T23:02:01.633Z"
+    },
+    "c:/Code/Mahjong/index.html": {
+      "count": 2,
+      "tokens": 2511,
+      "first_read": "2026-05-06T23:02:15.428Z"
+    },
+    "c:/Code/Mahjong/about.html": {
+      "count": 1,
+      "tokens": 2428,
+      "first_read": "2026-05-06T23:02:29.270Z"
+    },
+    "c:/Code/Mahjong/booking.html": {
+      "count": 2,
+      "tokens": 823,
+      "first_read": "2026-05-06T23:02:29.642Z"
+    },
+    "c:/Code/Mahjong/contact.html": {
+      "count": 2,
+      "tokens": 979,
+      "first_read": "2026-05-06T23:02:30.402Z"
+    },
+    "c:/Code/Mahjong/location.html": {
+      "count": 2,
+      "tokens": 1690,
+      "first_read": "2026-05-06T23:02:30.686Z"
+    },
+    "c:/Code/Mahjong/components/footer.js": {
+      "count": 1,
+      "tokens": 157,
+      "first_read": "2026-05-06T23:26:40.270Z"
     }
   },
-  "files_written": [],
-  "edit_counts": {},
-  "anatomy_hits": 0,
-  "anatomy_misses": 1,
-  "repeated_reads_warned": 0,
+  "files_written": [
+    {
+      "file": "c:/Code/Mahjong/components/footer.js",
+      "action": "create",
+      "tokens": 157,
+      "at": "2026-05-06T23:02:07.356Z"
+    },
+    {
+      "file": "c:/Code/Mahjong/index.html",
+      "action": "edit",
+      "tokens": 19,
+      "at": "2026-05-06T23:02:20.001Z"
+    },
+    {
+      "file": "c:/Code/Mahjong/about.html",
+      "action": "edit",
+      "tokens": 19,
+      "at": "2026-05-06T23:02:35.329Z"
+    },
+    {
+      "file": "c:/Code/Mahjong/booking.html",
+      "action": "edit",
+      "tokens": 19,
+      "at": "2026-05-06T23:02:37.240Z"
+    },
+    {
+      "file": "c:/Code/Mahjong/contact.html",
+      "action": "edit",
+      "tokens": 19,
+      "at": "2026-05-06T23:02:38.748Z"
+    },
+    {
+      "file": "c:/Code/Mahjong/location.html",
+      "action": "edit",
+      "tokens": 19,
+      "at": "2026-05-06T23:02:40.717Z"
+    },
+    {
+      "file": "c:/Code/Mahjong/contact-thanks.html",
+      "action": "edit",
+      "tokens": 19,
+      "at": "2026-05-06T23:02:42.267Z"
+    },
+    {
+      "file": "c:/Code/Mahjong/components/footer.js",
+      "action": "edit",
+      "tokens": 32,
+      "at": "2026-05-06T23:28:16.752Z"
+    },
+    {
+      "file": "c:/Code/Mahjong/booking.html",
+      "action": "edit",
+      "tokens": 122,
+      "at": "2026-05-06T23:28:20.069Z"
+    },
+    {
+      "file": "c:/Code/Mahjong/contact.html",
+      "action": "edit",
+      "tokens": 123,
+      "at": "2026-05-06T23:28:22.445Z"
+    },
+    {
+      "file": "c:/Code/Mahjong/contact-thanks.html",
+      "action": "edit",
+      "tokens": 40,
+      "at": "2026-05-06T23:28:35.454Z"
+    },
+    {
+      "file": "c:/Code/Mahjong/index.html",
+      "action": "edit",
+      "tokens": 222,
+      "at": "2026-05-06T23:29:11.348Z"
+    },
+    {
+      "file": "c:/Code/Mahjong/about.html",
+      "action": "edit",
+      "tokens": 63,
+      "at": "2026-05-06T23:29:14.517Z"
+    },
+    {
+      "file": "c:/Code/Mahjong/location.html",
+      "action": "edit",
+      "tokens": 70,
+      "at": "2026-05-06T23:29:16.889Z"
+    },
+    {
+      "file": "c:/Code/Mahjong/index.html",
+      "action": "edit",
+      "tokens": 40,
+      "at": "2026-05-06T23:29:26.156Z"
+    },
+    {
+      "file": "c:/Code/Mahjong/about.html",
+      "action": "edit",
+      "tokens": 45,
+      "at": "2026-05-06T23:29:27.665Z"
+    },
+    {
+      "file": "c:/Code/Mahjong/location.html",
+      "action": "edit",
+      "tokens": 40,
+      "at": "2026-05-06T23:29:28.770Z"
+    },
+    {
+      "file": "c:/Code/Mahjong/index.html",
+      "action": "edit",
+      "tokens": 81,
+      "at": "2026-05-06T23:29:40.891Z"
+    },
+    {
+      "file": "c:/Code/Mahjong/about.html",
+      "action": "edit",
+      "tokens": 0,
+      "at": "2026-05-06T23:29:42.406Z"
+    },
+    {
+      "file": "c:/Code/Mahjong/location.html",
+      "action": "edit",
+      "tokens": 36,
+      "at": "2026-05-06T23:29:44.103Z"
+    },
+    {
+      "file": "c:/Code/Mahjong/index.html",
+      "action": "edit",
+      "tokens": 1712,
+      "at": "2026-05-06T23:30:23.250Z"
+    },
+    {
+      "file": "c:/Code/Mahjong/about.html",
+      "action": "edit",
+      "tokens": 132,
+      "at": "2026-05-06T23:30:27.994Z"
+    },
+    {
+      "file": "c:/Code/Mahjong/location.html",
+      "action": "edit",
+      "tokens": 187,
+      "at": "2026-05-06T23:30:33.644Z"
+    },
+    {
+      "file": "c:/Code/Mahjong/index.html",
+      "action": "edit",
+      "tokens": 79,
+      "at": "2026-05-06T23:30:50.047Z"
+    },
+    {
+      "file": "c:/Code/Mahjong/about.html",
+      "action": "edit",
+      "tokens": 121,
+      "at": "2026-05-06T23:31:04.920Z"
+    },
+    {
+      "file": "c:/Code/Mahjong/location.html",
+      "action": "edit",
+      "tokens": 137,
+      "at": "2026-05-06T23:31:09.541Z"
+    },
+    {
+      "file": "c:/Code/Mahjong/location.html",
+      "action": "edit",
+      "tokens": 126,
+      "at": "2026-05-06T23:31:34.463Z"
+    },
+    {
+      "file": "c:/Code/Mahjong/about.html",
+      "action": "edit",
+      "tokens": 205,
+      "at": "2026-05-06T23:31:39.539Z"
+    },
+    {
+      "file": "c:/Code/Mahjong/index.html",
+      "action": "edit",
+      "tokens": 50,
+      "at": "2026-05-06T23:31:40.833Z"
+    },
+    {
+      "file": "c:/Code/Mahjong/about.html",
+      "action": "edit",
+      "tokens": 95,
+      "at": "2026-05-06T23:32:12.046Z"
+    },
+    {
+      "file": "c:/Code/Mahjong/faq.html",
+      "action": "create",
+      "tokens": 2395,
+      "at": "2026-05-06T23:32:37.280Z"
+    }
+  ],
+  "edit_counts": {
+    "components/footer.js": 2,
+    "index.html": 7,
+    "about.html": 8,
+    "booking.html": 2,
+    "contact.html": 2,
+    "location.html": 7,
+    "contact-thanks.html": 2,
+    "faq.html": 1
+  },
+  "anatomy_hits": 6,
+  "anatomy_misses": 2,
+  "repeated_reads_warned": 4,
   "cerebrum_warnings": 0,
-  "stop_count": 0
+  "stop_count": 1
 }

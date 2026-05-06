@@ -32,6 +32,262 @@
       "related_bugs": [],
       "occurrences": 1,
       "last_seen": "2026-04-25T04:59:58.534Z"
+    },
+    {
+      "id": "bug-003",
+      "timestamp": "2026-04-27T21:55:05.645Z",
+      "error_message": "CSS fix: padding, gap",
+      "file": "styles/main.css",
+      "root_cause": "padding: 3.5rem 1.25rem → 3rem 1.25rem; gap: 1rem → 2rem",
+      "fix": "Changed padding: 3.5rem 1.25rem → 3rem 1.25rem; gap: 1rem → 2rem",
+      "tags": [
+        "auto-detected",
+        "style-fix",
+        "css"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-04-27T21:55:05.645Z"
+    },
+    {
+      "id": "bug-004",
+      "timestamp": "2026-04-27T23:28:03.265Z",
+      "error_message": "CSS fix: padding",
+      "file": "styles/main.css",
+      "root_cause": "padding: 3rem 1.25rem → 3.5rem 1.25rem",
+      "fix": "Changed padding: 3rem 1.25rem → 3.5rem 1.25rem",
+      "tags": [
+        "auto-detected",
+        "style-fix",
+        "css"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-04-27T23:28:03.265Z"
+    },
+    {
+      "id": "bug-005",
+      "timestamp": "2026-04-28T00:36:30.612Z",
+      "error_message": "Incorrect value in code",
+      "file": "index.html",
+      "root_cause": "Had \"preconnect\"",
+      "fix": "Changed to \"description\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "html"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-04-28T00:36:30.612Z"
+    },
+    {
+      "id": "bug-006",
+      "timestamp": "2026-04-28T00:36:48.946Z",
+      "error_message": "Significant refactor of ",
+      "file": "index.html",
+      "root_cause": "3 lines replaced/restructured",
+      "fix": "Rewrote 15→54 lines (3 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "html"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-04-28T00:36:48.946Z"
+    },
+    {
+      "id": "bug-007",
+      "timestamp": "2026-04-28T00:36:59.572Z",
+      "error_message": "Incorrect value in code",
+      "file": "about.html",
+      "root_cause": "Had \"preconnect\"",
+      "fix": "Changed to \"description\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "html"
+      ],
+      "related_bugs": [],
+      "occurrences": 2,
+      "last_seen": "2026-04-28T00:37:19.892Z"
+    },
+    {
+      "id": "bug-008",
+      "timestamp": "2026-04-28T00:37:29.839Z",
+      "error_message": "Incorrect value in code",
+      "file": "location.html",
+      "root_cause": "Had \"preconnect\"",
+      "fix": "Changed to \"description\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "html"
+      ],
+      "related_bugs": [],
+      "occurrences": 4,
+      "last_seen": "2026-04-28T00:37:59.311Z"
+    },
+    {
+      "id": "bug-009",
+      "timestamp": "2026-04-28T00:38:11.394Z",
+      "error_message": "Incorrect value in code",
+      "file": "contact.html",
+      "root_cause": "Had \"preconnect\"",
+      "fix": "Changed to \"description\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "html"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-04-28T00:38:11.394Z"
+    },
+    {
+      "id": "bug-010",
+      "timestamp": "2026-04-28T00:38:25.775Z",
+      "error_message": "Incorrect value in code",
+      "file": "contact-thanks.html",
+      "root_cause": "Had \"preconnect\"",
+      "fix": "Changed to \"description\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "html"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-04-28T00:38:25.775Z"
+    },
+    {
+      "id": "bug-011",
+      "timestamp": "2026-05-06T23:28:16.754Z",
+      "error_message": "Incorrect value in code",
+      "file": "components/footer.js",
+      "root_cause": "Had \"contact.html\"",
+      "fix": "Changed to \"faq.html\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "js"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-05-06T23:28:16.754Z"
+    },
+    {
+      "id": "bug-012",
+      "timestamp": "2026-05-06T23:28:35.455Z",
+      "error_message": "Incorrect value in code",
+      "file": "contact-thanks.html",
+      "root_cause": "Had \"contact.html\"",
+      "fix": "Changed to \"faq.html\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "html"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-05-06T23:28:35.455Z"
+    },
+    {
+      "id": "bug-013",
+      "timestamp": "2026-05-06T23:29:16.891Z",
+      "error_message": "Incorrect value in code",
+      "file": "location.html",
+      "root_cause": "Had \"Find us at 1352 N Interstate Dr, Norman, OK. Mahj",
+      "fix": "Changed to \"Find us at 1370 N Interstate Dr Suite 153, Norman",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "html"
+      ],
+      "related_bugs": [],
+      "occurrences": 3,
+      "last_seen": "2026-05-06T23:29:44.104Z"
+    },
+    {
+      "id": "bug-014",
+      "timestamp": "2026-05-06T23:29:26.159Z",
+      "error_message": "Incorrect value in code",
+      "file": "index.html",
+      "root_cause": "Had \"contact.html\"",
+      "fix": "Changed to \"faq.html\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "html"
+      ],
+      "related_bugs": [],
+      "occurrences": 2,
+      "last_seen": "2026-05-06T23:29:40.893Z"
+    },
+    {
+      "id": "bug-015",
+      "timestamp": "2026-05-06T23:29:27.666Z",
+      "error_message": "Incorrect value in code",
+      "file": "about.html",
+      "root_cause": "Had \"contact.html\"",
+      "fix": "Changed to \"faq.html\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "html"
+      ],
+      "related_bugs": [],
+      "occurrences": 2,
+      "last_seen": "2026-05-06T23:30:27.996Z"
+    },
+    {
+      "id": "bug-016",
+      "timestamp": "2026-05-06T23:30:23.252Z",
+      "error_message": "Significant refactor of ",
+      "file": "index.html",
+      "root_cause": "6 lines replaced/restructured",
+      "fix": "Rewrote 56→97 lines (6 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "html"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-05-06T23:30:23.252Z"
+    },
+    {
+      "id": "bug-017",
+      "timestamp": "2026-05-06T23:30:33.646Z",
+      "error_message": "Significant refactor of ",
+      "file": "location.html",
+      "root_cause": "3 lines replaced/restructured",
+      "fix": "Rewrote 8→9 lines (3 removed) | Also: \"streetAddress\": \"1352 N Interstate Dr\",; \"openingHoursSpecification\": [",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "html"
+      ],
+      "related_bugs": [],
+      "occurrences": 2,
+      "last_seen": "2026-05-06T23:31:34.465Z"
+    },
+    {
+      "id": "bug-018",
+      "timestamp": "2026-05-06T23:31:04.921Z",
+      "error_message": "Significant refactor of ",
+      "file": "about.html",
+      "root_cause": "40 lines replaced/restructured",
+      "fix": "Rewrote 55→11 lines (40 removed) | Also: \"@type\": \"FAQPage\",; \"mainEntity\": [",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "html"
+      ],
+      "related_bugs": [],
+      "occurrences": 2,
+      "last_seen": "2026-05-06T23:32:12.048Z"
     }
   ]
 }

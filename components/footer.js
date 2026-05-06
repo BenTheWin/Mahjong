@@ -7,6 +7,7 @@ document.currentScript.insertAdjacentHTML('afterend', `
       <a href="booking.html">Booking</a>
       <a href="location.html">Location</a>
       <a href="about.html">About</a>
+      <a href="faq.html">FAQ</a>
       <a href="contact.html">Contact</a>
     </nav>
     <p class="footer__copy">&copy; 2026 Mahjong Social at Solara. All rights reserved.</p>

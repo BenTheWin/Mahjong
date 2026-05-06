@@ -138,3 +138,81 @@
 | Time | Action | File(s) | Outcome | ~Tokens |
 |------|--------|---------|---------|--------|
 | 18:28 | Wrapped booking.html with full nav/page-header/footer matching site theme; iframe preserved | booking.html, styles/main.css | committed | ~900 |
+| 18:30 | Session end: 2 writes across 2 files (booking.html, main.css) | 4 reads | ~7561 tok |
+
+## Session: 2026-05-02 19:28
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 19:32 | Edited index.html | expanded (+54 lines) | ~742 |
+| 19:32 | Edited about.html | expanded (+69 lines) | ~994 |
+| 19:33 | Edited location.html | expanded (+54 lines) | ~738 |
+| 19:33 | Edited booking.html | expanded (+13 lines) | ~369 |
+| 19:33 | Edited contact.html | expanded (+13 lines) | ~364 |
+| 19:33 | Edited index.html | inline fix | ~61 |
+| 19:33 | Edited index.html | inline fix | ~48 |
+| 19:33 | Created sitemap.xml | — | ~216 |
+| 19:33 | Created robots.txt | — | ~21 |
+| 19:34 | Session end: 9 writes across 7 files (index.html, about.html, location.html, booking.html, contact.html) | 7 reads | ~3806 tok |
+
+## Session: 2026-05-02 23:35
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-05-02 23:35
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-05-02 23:35
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-05-06 17:26
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-05-06 17:26
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-05-06 17:26
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 18:02 | Created components/footer.js | — | ~157 |
+| 18:02 | Edited index.html | removed 13 lines | ~18 |
+| 18:02 | Edited about.html | removed 13 lines | ~18 |
+| 18:02 | Edited booking.html | removed 13 lines | ~18 |
+| 18:02 | Edited contact.html | removed 13 lines | ~18 |
+| 18:02 | Edited location.html | removed 13 lines | ~18 |
+| 18:02 | Edited contact-thanks.html | removed 13 lines | ~18 |
+| 18:02 | Session end: 7 writes across 7 files (footer.js, index.html, about.html, booking.html, contact.html) | 8 reads | ~9182 tok |
+| 18:28 | Edited components/footer.js | 2→3 lines | ~32 |
+| 18:28 | Edited booking.html | 10→11 lines | ~114 |
+| 18:28 | Edited contact.html | 10→11 lines | ~115 |
+| 18:28 | Edited contact-thanks.html | 2→3 lines | ~37 |
+| 18:29 | Edited index.html | 28→28 lines | ~207 |
+| 18:29 | Edited about.html | 2→2 lines | ~59 |
+| 18:29 | Edited location.html | 2→2 lines | ~66 |
+| 18:29 | Edited index.html | 2→3 lines | ~37 |
+| 18:29 | Edited about.html | 2→3 lines | ~42 |
+| 18:29 | Edited location.html | 2→3 lines | ~37 |
+| 18:29 | Edited index.html | "re picking up a tile for " → "re learning the basics or" | ~76 |
+| 18:29 | Edited about.html | — | ~0 |
+| 18:29 | Edited location.html | 2→2 lines | ~34 |
+| 18:30 | Edited index.html | expanded (+41 lines) | ~1598 |
+| 18:30 | Edited about.html | 2→1 lines | ~123 |
+| 18:30 | Edited location.html | 8→9 lines | ~174 |
+| 18:30 | Edited index.html | 2→2 lines | ~74 |
+| 18:31 | Edited about.html | removed 55 lines | ~113 |
+| 18:31 | Edited location.html | 13→8 lines | ~128 |
+| 18:31 | Edited location.html | reduced (-14 lines) | ~117 |
+| 18:31 | Edited about.html | 7→7 lines | ~191 |
+| 18:31 | Edited index.html | 3→4 lines | ~47 |
+| 18:32 | Edited about.html | removed 56 lines | ~88 |
+| 18:32 | Created faq.html | — | ~2235 |
