@@ -793,6 +793,53 @@ ul { list-style: none; }
   margin: 0;
 }
 
+/* Gold inline link — used for body-text links on any background */
+.link--gold {
+  color: var(--gold);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.link--gold:hover { color: var(--gold-deep); }
+
+/* ============================================================
+   ABOUT PAGE — FAQ CTA SECTION
+   ============================================================ */
+.about-faq-cta {
+  background: var(--green);
+  padding: 5rem 2rem;
+  text-align: center;
+}
+
+.about-faq-cta__inner {
+  max-width: 680px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.about-faq-cta .section-label { color: var(--gold); }
+
+.about-faq-cta h2 {
+  font-family: var(--font-heading);
+  font-size: clamp(1.4rem, 2.5vw, 1.9rem);
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ivory);
+  line-height: 1.4;
+}
+
+.about-faq-cta p {
+  font-family: var(--font-script);
+  font-style: italic;
+  font-size: 1.2rem;
+  color: var(--muted-light);
+  line-height: 1.85;
+  margin-bottom: 1rem;
+}
+
 /* ============================================================
    CONTACT PAGE
    ============================================================ */
@@ -935,6 +982,8 @@ ul { list-style: none; }
   }
 
   .about-faq { padding: 3.5rem 1.25rem; }
+
+  .about-faq-cta { padding: 3.5rem 1.25rem; }
 
   .contact { padding: 3.5rem 1.25rem; }
 }
