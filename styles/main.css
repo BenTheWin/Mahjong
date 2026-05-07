@@ -348,6 +348,10 @@ ul { list-style: none; }
 }
 
 .classes__cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
   text-align: center;
   margin-top: 2.25rem;
 }
@@ -1049,12 +1053,6 @@ ul { list-style: none; }
 .mobile-menu__nav a:first-child { border-top: 1px solid rgba(247, 244, 237, 0.1); }
 .mobile-menu__nav a:hover { color: var(--gold); }
 .mobile-menu__nav a[aria-current="page"] { color: var(--gold); }
-
-.mobile-menu__cta {
-  display: block;
-  text-align: center;
-  margin-top: 2.5rem;
-}
 
 /* ============================================================
    REDUCED MOTION

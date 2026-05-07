@@ -34,7 +34,7 @@
       '<a href="faq.html">FAQ</a>' +
       '<a href="contact.html">Contact</a>' +
     '</nav>' +
-    '<a class="mobile-menu__cta btn btn--gold" href="booking.html">Book a Class &rarr;</a>';
+    '';
 
   document.body.appendChild(overlay);
 
