@@ -314,6 +314,10 @@ ul { list-style: none; }
   transform: translateY(-2px);
 }
 
+.class-card__price {
+  font-weight: bolder;
+}
+
 .class-card__icon {
   width: 56px;
   height: 56px;
