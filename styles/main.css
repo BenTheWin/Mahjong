@@ -316,6 +316,7 @@ ul { list-style: none; }
 
 .class-card__price {
   font-weight: bolder;
+  margin-top: auto;
 }
 
 .class-card__icon {
