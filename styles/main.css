@@ -330,7 +330,8 @@ ul { list-style: none; }
   flex-shrink: 0;
 }
 
-.class-card__icon svg {
+.class-card__icon svg,
+.class-card__icon img {
   width: 38px;
   height: 38px;
 }
