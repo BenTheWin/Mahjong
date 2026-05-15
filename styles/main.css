@@ -999,34 +999,23 @@ ul { list-style: none; }
 }
 
 .mobile-menu__header {
+  position: relative;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   margin-bottom: 2.5rem;
 }
 
-.mobile-menu__brand {
-  display: flex;
-  flex-direction: column;
-  gap: 0.1rem;
-}
-
-.mobile-menu__brand-name {
-  font-family: var(--font-heading);
-  font-size: 0.85rem;
-  letter-spacing: 0.22em;
-  text-transform: uppercase;
-  color: var(--ivory);
-}
-
-.mobile-menu__brand-sub {
-  font-family: var(--font-script);
-  font-style: italic;
-  font-size: 1rem;
-  color: var(--gold);
+.mobile-menu__logo {
+  width: 80px;
+  height: 80px;
 }
 
 .mobile-menu__close {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
   background: none;
   border: none;
   cursor: pointer;

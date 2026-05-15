@@ -20,10 +20,7 @@
   overlay.setAttribute('aria-hidden', 'true');
   overlay.innerHTML =
     '<div class="mobile-menu__header">' +
-      '<span class="mobile-menu__brand">' +
-        '<span class="mobile-menu__brand-name">Mahjong Social</span>' +
-        '<em class="mobile-menu__brand-sub">at Solara</em>' +
-      '</span>' +
+      '<img class="mobile-menu__logo" src="Images/circle.svg" alt="Mahjong Social at Solara">' +
       '<button class="mobile-menu__close" aria-label="Close navigation menu">&times;</button>' +
     '</div>' +
     '<nav class="mobile-menu__nav">' +
