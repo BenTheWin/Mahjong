@@ -4,7 +4,7 @@
   cs.insertAdjacentHTML('afterend',
     '<nav class="nav">' +
       '<a class="nav__logo" href="index.html">' +
-        '<img src="Images/circle.svg" alt="Mahjong Social at Solara">' +
+        '<img src="Images/NavBarMahjongTempLogo-removebg-preview.png" alt="Mahjong Social at Solara">' +
       '</a>' +
       '<ul class="nav__links">' +
         '<li><a href="booking.html">Booking</a></li>' +
