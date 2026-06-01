@@ -1,7 +1,5 @@
 (function () {
-  var cs = document.currentScript;
-
-  cs.insertAdjacentHTML('afterend',
+  document.body.insertAdjacentHTML('afterbegin',
     '<nav class="nav">' +
       '<a class="nav__logo" href="index.html">' +
         '<img src="Images/NavBarMahjongTempLogo-removebg-preview.png" alt="Mahjong Social at Solara">' +
