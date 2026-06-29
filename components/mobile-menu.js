@@ -30,6 +30,7 @@
       '<a href="about.html">About</a>' +
       '<a href="faq.html">FAQ</a>' +
       '<a href="contact.html">Contact</a>' +
+      '<a href="travel-tiles.html">Travel &amp; Tiles</a>' +
     '</nav>' +
     '';
 

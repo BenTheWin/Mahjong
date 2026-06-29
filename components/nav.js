@@ -8,9 +8,9 @@
         '<li><a href="booking.html">Booking</a></li>' +
         '<li><a href="location.html">Location</a></li>' +
         '<li><a href="about.html">About</a></li>' +
-        '<li><a href="travel-tiles.html">Travel &amp; Tiles</a></li>' +
         '<li><a href="faq.html">FAQ</a></li>' +
         '<li><a href="contact.html">Contact</a></li>' +
+        '<li><a href="travel-tiles.html" class="nav__link--featured">&#9788;&nbsp;Travel &amp; Tiles</a></li>' +
       '</ul>' +
     '</nav>'
   );

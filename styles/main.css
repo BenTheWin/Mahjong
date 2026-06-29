@@ -161,6 +161,19 @@ ul { list-style: none; }
 /* Active nav link */
 .nav__links a[aria-current="page"] { color: var(--gold); }
 
+/* Travel & Tiles — subtle featured treatment */
+.nav__link--featured {
+  color: var(--gold) !important;
+  border: 1px solid rgba(200, 160, 60, 0.35);
+  border-radius: 3px;
+  padding: 0.25rem 0.65rem;
+  transition: color 0.2s ease, background 0.2s ease, border-color 0.2s ease;
+}
+.nav__link--featured:hover {
+  background: rgba(200, 160, 60, 0.08);
+  border-color: var(--gold);
+}
+
 /* ============================================================
    HERO
    ============================================================ */

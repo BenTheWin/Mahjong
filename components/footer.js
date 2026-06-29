@@ -9,6 +9,7 @@ document.currentScript.insertAdjacentHTML('afterend', `
       <a href="about.html">About</a>
       <a href="faq.html">FAQ</a>
       <a href="contact.html">Contact</a>
+      <a href="travel-tiles.html">Travel &amp; Tiles</a>
     </nav>
     <div class="footer__social">
       <a class="footer__social-link" href="https://www.instagram.com/mahjongsocialok" target="_blank" rel="noopener noreferrer" aria-label="Mahjong Social at Solara on Instagram">
