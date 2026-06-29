@@ -10,7 +10,7 @@
         '<li><a href="about.html">About</a></li>' +
         '<li><a href="faq.html">FAQ</a></li>' +
         '<li><a href="contact.html">Contact</a></li>' +
-        '<li><a href="travel-tiles.html" class="nav__link--featured">&#9788;&nbsp;Travel &amp; Tiles</a></li>' +
+        '<li><a href="travel-tiles.html" class="nav__link--featured">&#9788;&nbsp;Tiles &amp; Travel</a></li>' +
       '</ul>' +
     '</nav>'
   );

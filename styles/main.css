@@ -161,7 +161,7 @@ ul { list-style: none; }
 /* Active nav link */
 .nav__links a[aria-current="page"] { color: var(--gold); }
 
-/* Travel & Tiles — subtle featured treatment */
+/* Tiles & Travel — subtle featured treatment */
 .nav__link--featured {
   color: var(--gold) !important;
   border: 1px solid rgba(200, 160, 60, 0.35);
@@ -1136,7 +1136,7 @@ ul { list-style: none; }
   .cruise-register .btn { width: 100%; }
 }
 
-/* ══ Travel & Tiles page ═════════════════════════════════════════════ */
+/* ══ Tiles & Travel page ═════════════════════════════════════════════ */
 
 /* ── Page header variant (navy) ── */
 .page-header--navy {
