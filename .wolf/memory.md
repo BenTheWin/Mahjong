@@ -216,3 +216,382 @@
 | 18:31 | Edited index.html | 3→4 lines | ~47 |
 | 18:32 | Edited about.html | removed 56 lines | ~88 |
 | 18:32 | Created faq.html | — | ~2235 |
+| 18:32 | Session end: 31 writes across 8 files (footer.js, index.html, about.html, booking.html, contact.html) | 9 reads | ~15012 tok |
+| 18:44 | Edited styles/main.css | expanded (+47 lines) | ~345 |
+| 18:44 | Edited styles/main.css | 3→5 lines | ~37 |
+| 18:45 | Edited faq.html | reduced (-16 lines) | ~494 |
+| 18:45 | Edited about.html | "btn btn--outline-green" → "btn btn--gold" | ~19 |
+| 18:45 | Edited faq.html | "https://nationalmahjonggl" → "link--gold" | ~87 |
+| 18:45 | Edited faq.html | removed 14 lines | ~28 |
+| 18:45 | Edited faq.html | reduced (-6 lines) | ~32 |
+| 18:45 | Edited location.html | 4→4 lines | ~112 |
+| 18:46 | Session end: 39 writes across 9 files (footer.js, index.html, about.html, booking.html, contact.html) | 10 reads | ~16222 tok |
+
+## Session: 2026-05-06 18:48
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-05-06 18:49
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 18:58 | Edited styles/main.css | CSS: flex-wrap, justify-content | ~54 |
+| 18:58 | Edited styles/main.css | CSS: flex, width | ~25 |
+| 18:58 | Session end: 2 writes across 1 files (main.css) | 6 reads | ~10528 tok |
+| 19:16 | Created components/mobile-menu.js | — | ~716 |
+| 19:17 | Edited styles/main.css | expanded (+129 lines) | ~847 |
+| 19:17 | Edited styles/main.css | 8→13 lines | ~79 |
+| 19:17 | Edited components/footer.js | expanded (+9 lines) | ~210 |
+| 19:17 | Edited index.html | 2→3 lines | ~31 |
+| 19:17 | Edited about.html | 2→3 lines | ~31 |
+| 19:17 | Edited booking.html | 2→3 lines | ~31 |
+| 19:17 | Edited contact.html | 2→3 lines | ~31 |
+| 19:17 | Edited contact-thanks.html | 2→3 lines | ~31 |
+| 19:17 | Edited faq.html | 2→3 lines | ~31 |
+| 19:17 | Edited location.html | 2→3 lines | ~31 |
+| 19:18 | Session end: 13 writes across 10 files (main.css, mobile-menu.js, footer.js, index.html, about.html) | 12 reads | ~18644 tok |
+| 19:23 | Edited styles/main.css | 4→8 lines | ~41 |
+| 19:24 | Edited components/mobile-menu.js | removed 1 lines | ~2 |
+| 19:24 | Edited styles/main.css | removed 8 lines | ~1 |
+| 19:24 | Session end: 16 writes across 10 files (main.css, mobile-menu.js, footer.js, index.html, about.html) | 12 reads | ~18688 tok |
+| 19:29 | Edited contact-thanks.html | 1→2 lines | ~48 |
+| 19:29 | Session end: 17 writes across 10 files (main.css, mobile-menu.js, footer.js, index.html, about.html) | 13 reads | ~18774 tok |
+| 19:31 | Session end: 17 writes across 10 files (main.css, mobile-menu.js, footer.js, index.html, about.html) | 13 reads | ~18774 tok |
+| 19:33 | Session end: 17 writes across 10 files (main.css, mobile-menu.js, footer.js, index.html, about.html) | 13 reads | ~18774 tok |
+| 20:57 | Session end: 17 writes across 10 files (main.css, mobile-menu.js, footer.js, index.html, about.html) | 13 reads | ~18774 tok |
+
+## Session: 2026-05-07 22:21
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-05-07 22:21
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-05-07 22:21
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 22:22 | Edited sitemap.xml | 6→11 lines | ~78 |
+| 22:22 | Session end: 1 writes across 1 files (sitemap.xml) | 1 reads | ~300 tok |
+
+## Session: 2026-05-08 00:16
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-05-08 00:16
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-05-13 17:13
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-05-13 17:13
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-05-13 18:45
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-05-13 18:45
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-05-13 18:57
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-05-14 21:49
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-05-14 21:49
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-05-14 02:51
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-05-14 02:51
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-05-14 02:51
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 03:16 | Edited styles/main.css | CSS: margin-top | ~19 |
+| 03:17 | Session end: 1 writes across 1 files (main.css) | 1 reads | ~6967 tok |
+
+## Session: 2026-05-15 20:03
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-05-15 20:03
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-05-15 20:03
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-05-15 20:12
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 20:16 | Edited index.html | 2→3 lines | ~33 |
+| 20:16 | Edited about.html | 2→3 lines | ~33 |
+| 20:16 | Edited booking.html | 2→3 lines | ~33 |
+| 20:16 | Edited contact.html | 2→3 lines | ~33 |
+| 20:16 | Edited contact-thanks.html | 2→3 lines | ~33 |
+| 20:16 | Edited faq.html | 2→3 lines | ~33 |
+| 20:16 | Edited location.html | 2→3 lines | ~33 |
+| 20:16 | Edited index.html | "Images/NavBarMahjongTempL" → "Images/circle.svg" | ~18 |
+| 20:16 | Edited about.html | "Images/NavBarMahjongTempL" → "Images/circle.svg" | ~18 |
+| 20:16 | Edited booking.html | "Images/NavBarMahjongTempL" → "Images/circle.svg" | ~18 |
+| 20:16 | Edited contact.html | "Images/NavBarMahjongTempL" → "Images/circle.svg" | ~18 |
+| 20:16 | Edited contact-thanks.html | "Images/NavBarMahjongTempL" → "Images/circle.svg" | ~18 |
+| 20:16 | Edited faq.html | "Images/NavBarMahjongTempL" → "Images/circle.svg" | ~18 |
+| 20:16 | Edited location.html | "Images/NavBarMahjongTempL" → "Images/circle.svg" | ~18 |
+| 20:17 | Edited styles/main.css | 4→5 lines | ~23 |
+| 20:17 | Edited index.html | removed 12 lines | ~18 |
+| 20:17 | Session end: 16 writes across 8 files (index.html, about.html, booking.html, contact.html, contact-thanks.html) | 10 reads | ~17738 tok |
+| 20:26 | Created components/nav.js | — | ~292 |
+| 20:26 | Edited components/mobile-menu.js | 7→4 lines | ~72 |
+| 20:26 | Edited styles/main.css | reduced (-11 lines) | ~146 |
+| 20:27 | Edited index.html | removed 13 lines | ~16 |
+| 20:27 | Edited about.html | removed 13 lines | ~16 |
+| 20:27 | Edited booking.html | removed 13 lines | ~16 |
+| 20:27 | Edited contact.html | removed 13 lines | ~16 |
+| 20:27 | Edited contact-thanks.html | removed 13 lines | ~16 |
+| 20:27 | Edited faq.html | removed 13 lines | ~16 |
+| 20:27 | Edited location.html | removed 13 lines | ~16 |
+| 20:27 | Edited index.html | — | ~0 |
+| 20:27 | Edited about.html | — | ~0 |
+| 20:27 | Edited booking.html | — | ~0 |
+| 20:27 | Edited contact.html | — | ~0 |
+| 20:27 | Edited contact-thanks.html | — | ~0 |
+| 20:27 | Edited faq.html | — | ~0 |
+| 20:27 | Edited location.html | — | ~0 |
+| 20:27 | Session end: 33 writes across 10 files (index.html, about.html, booking.html, contact.html, contact-thanks.html) | 12 reads | ~19417 tok |
+| 20:30 | Edited styles/main.css | CSS: padding-top | ~81 |
+| 20:31 | Session end: 34 writes across 10 files (index.html, about.html, booking.html, contact.html, contact-thanks.html) | 12 reads | ~19498 tok |
+| 20:47 | Session end: 34 writes across 10 files (index.html, about.html, booking.html, contact.html, contact-thanks.html) | 12 reads | ~19498 tok |
+
+## Session: 2026-05-15 20:49
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-05-15 20:56
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 20:59 | Created site.webmanifest | — | ~81 |
+| 21:00 | Edited index.html | 2→7 lines | ~130 |
+| 21:00 | Edited about.html | 2→7 lines | ~128 |
+| 21:00 | Edited booking.html | 2→7 lines | ~131 |
+| 21:00 | Edited contact.html | 2→7 lines | ~130 |
+| 21:00 | Edited contact-thanks.html | 2→7 lines | ~126 |
+| 21:00 | Edited faq.html | 2→7 lines | ~127 |
+| 21:00 | Edited location.html | 2→7 lines | ~131 |
+| 21:00 | Session end: 8 writes across 8 files (site.webmanifest, index.html, about.html, booking.html, contact.html) | 10 reads | ~9594 tok |
+| 21:01 | Session end: 8 writes across 8 files (site.webmanifest, index.html, about.html, booking.html, contact.html) | 10 reads | ~9594 tok |
+| 21:05 | Created icons/site.webmanifest | — | ~84 |
+| 21:05 | Edited index.html | 5→5 lines | ~97 |
+| 21:05 | Edited about.html | 5→5 lines | ~97 |
+| 21:05 | Edited booking.html | 5→5 lines | ~97 |
+| 21:05 | Edited contact.html | 5→5 lines | ~97 |
+| 21:05 | Edited contact-thanks.html | 5→5 lines | ~97 |
+| 21:05 | Edited faq.html | 5→5 lines | ~97 |
+| 21:05 | Edited location.html | 5→5 lines | ~97 |
+| 21:05 | Session end: 16 writes across 8 files (site.webmanifest, index.html, about.html, booking.html, contact.html) | 11 reads | ~10493 tok |
+| 21:08 | Edited location.html | "https://maps.google.com/m" → "https://maps.google.com/m" | ~21 |
+| 21:08 | Session end: 17 writes across 8 files (site.webmanifest, index.html, about.html, booking.html, contact.html) | 11 reads | ~10613 tok |
+| 21:34 | Session end: 17 writes across 8 files (site.webmanifest, index.html, about.html, booking.html, contact.html) | 11 reads | ~10613 tok |
+
+## Session: 2026-05-15 22:21
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-05-15 22:21
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-05-15 22:24
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-05-15 22:24
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-05-15 22:24
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-05-15 22:24
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-05-15 22:33
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-05-15 22:33
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-05-15 22:33
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 22:36 | Edited ../../Users/Reela/.claude/settings.json | 3→7 lines | ~34 |
+| 22:36 | Session end: 1 writes across 1 files (settings.json) | 1 reads | ~34 tok |
+| 22:37 | Session end: 1 writes across 1 files (settings.json) | 1 reads | ~34 tok |
+| 22:40 | Session end: 1 writes across 1 files (settings.json) | 1 reads | ~34 tok |
+| 22:42 | Session end: 1 writes across 1 files (settings.json) | 1 reads | ~34 tok |
+
+## Session: 2026-05-19 14:24
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-05-19 14:24
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-06-01 19:18
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-06-01 19:18
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-06-01 19:18
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-06-01 19:18
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-06-01 19:18
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-06-01 19:46
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-06-01 19:46
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-06-01 20:16
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 20:54 | Created components/nav.js | — | ~294 |
+| 20:55 | Edited index.html | 2→5 lines | ~154 |
+| 20:55 | Edited about.html | 2→4 lines | ~131 |
+| 20:55 | Edited booking.html | 2→4 lines | ~131 |
+| 20:55 | Edited contact.html | 2→4 lines | ~131 |
+| 20:55 | Edited faq.html | 2→4 lines | ~131 |
+| 20:55 | Edited location.html | 2→4 lines | ~131 |
+| 20:55 | Edited contact-thanks.html | 2→4 lines | ~131 |
+| 20:55 | Edited index.html | removed 4 lines | ~4 |
+| 20:55 | Edited about.html | 4→1 lines | ~6 |
+| 20:55 | Edited booking.html | 4→1 lines | ~6 |
+| 20:55 | Edited contact.html | 4→1 lines | ~6 |
+| 20:55 | Edited faq.html | 4→1 lines | ~6 |
+| 20:55 | Edited location.html | 4→1 lines | ~6 |
+| 20:55 | Edited contact-thanks.html | 4→1 lines | ~6 |
+| 20:56 | Session end: 15 writes across 8 files (nav.js, index.html, about.html, booking.html, contact.html) | 8 reads | ~1346 tok |
+| 21:01 | Edited styles/main.css | "../Images/HeroPicture.jpg" → "../Images/HeroPicture.web" | ~21 |
+| 21:01 | Edited index.html | "/Images/HeroPicture.jpg" → "/Images/HeroPicture.webp" | ~9 |
+| 21:02 | Session end: 17 writes across 9 files (nav.js, index.html, about.html, booking.html, contact.html) | 9 reads | ~1376 tok |
+| 21:12 | Edited index.html | 2→2 lines | ~30 |
+| 21:12 | Edited about.html | 2→2 lines | ~30 |
+| 21:12 | Edited booking.html | 2→2 lines | ~30 |
+| 21:12 | Edited contact.html | 2→2 lines | ~30 |
+| 21:12 | Edited faq.html | 2→2 lines | ~30 |
+| 21:12 | Edited location.html | 2→2 lines | ~30 |
+| 21:12 | Edited contact-thanks.html | 2→2 lines | ~30 |
+| 21:12 | Session end: 24 writes across 9 files (nav.js, index.html, about.html, booking.html, contact.html) | 10 reads | ~1600 tok |
+
+## Session: 2026-06-01 21:17
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-06-29 16:40
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-06-29 16:40
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-06-29 16:40
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-06-29 16:40
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-06-29 16:40
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 16:49 | Created ../../Users/Reela/.claude/plans/hey-been-a-while-sharded-cupcake.md | — | ~3804 |
+| 16:51 | Session end: 1 writes across 1 files (hey-been-a-while-sharded-cupcake.md) | 6 reads | ~17692 tok |
+| 16:56 | Session end: 1 writes across 1 files (hey-been-a-while-sharded-cupcake.md) | 6 reads | ~17692 tok |
+| 17:07 | Created ../../Users/Reela/.claude/plans/hey-been-a-while-sharded-cupcake.md | — | ~5742 |
+| 17:08 | Edited styles/main.css | CSS: --navy | ~16 |
+| 17:09 | Edited styles/main.css | expanded (+253 lines) | ~1561 |
+| 17:09 | Edited components/nav.js | 2→3 lines | ~49 |
+| 17:10 | Created travel-tiles.html | — | ~2086 |
+| 17:10 | Built Travel & Tiles page — Mahj on the Med cruise promo, 7-day schedule, $395 registration, news section; --navy var + full CSS added to main.css; nav updated | travel-tiles.html, nav.js, main.css, images/travel-tiles/, anatomy.md | complete, not pushed | ~4k |
