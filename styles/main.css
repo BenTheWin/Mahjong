@@ -6,6 +6,7 @@
 :root {
   --ivory:        #F7F4ED;
   --green:        #1E3D2F;
+  --navy:         #1B3268;
   --gold:         #D4AF37;
   --gold-deep:    #C09A28;
   --blush:        #E7B5B2;
@@ -1116,4 +1117,257 @@ ul { list-style: none; }
   .about-faq-cta { padding: 3.5rem 1.25rem; }
 
   .contact { padding: 3.5rem 1.25rem; }
+
+  .schedule-item { grid-template-columns: 1fr; gap: 0.4rem; }
+  .news-card { flex: 0 0 100%; }
+  .cruise-register .btn { width: 100%; }
+}
+
+/* ══ Travel & Tiles page ═════════════════════════════════════════════ */
+
+/* ── Page header variant (navy) ── */
+.page-header--navy {
+  background: var(--navy);
+}
+
+/* ── Cruise hero section (ivory) ── */
+.cruise-hero {
+  background: var(--ivory);
+  padding: 5rem 2rem;
+}
+.cruise-hero__inner {
+  max-width: 860px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  text-align: center;
+}
+.cruise-hero__badge {
+  width: min(320px, 80vw);
+  height: auto;
+}
+.cruise-hero h2 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  color: var(--navy);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  line-height: 1.2;
+  margin: 0;
+}
+.cruise-hero__subtitle {
+  font-family: var(--font-script);
+  font-style: italic;
+  color: var(--gold);
+  font-size: clamp(1.1rem, 2vw, 1.4rem);
+  margin: 0;
+}
+.cruise-hero__description {
+  font-family: var(--font-script);
+  font-style: italic;
+  color: var(--muted);
+  font-size: 1.15rem;
+  line-height: 1.8;
+  max-width: 640px;
+  margin: 0;
+}
+.cruise-hero__travel-link {
+  font-family: var(--font-heading);
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--gold);
+  text-decoration: none;
+  transition: color 0.2s;
+  margin-top: 0.25rem;
+}
+.cruise-hero__travel-link:hover { color: var(--gold-deep); }
+
+/* ── Activity schedule section (navy) ── */
+.cruise-schedule {
+  background: var(--navy);
+  padding: 5rem 2rem;
+}
+.cruise-schedule__inner {
+  max-width: 760px;
+  margin: 0 auto;
+  text-align: center;
+}
+.cruise-schedule h2 {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  font-size: clamp(1.4rem, 2.5vw, 1.9rem);
+  color: var(--ivory);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 2.5rem;
+}
+.schedule-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  text-align: left;
+}
+.schedule-item {
+  display: grid;
+  grid-template-columns: 5rem 1fr;
+  gap: 1.25rem;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid rgba(247, 244, 237, 0.12);
+  align-items: start;
+}
+.schedule-item:last-child { border-bottom: none; }
+.schedule-item__day {
+  font-family: var(--font-heading);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+  color: var(--gold);
+  padding-top: 0.2rem;
+}
+.schedule-item__title {
+  font-family: var(--font-heading);
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--ivory);
+  margin-bottom: 0.4rem;
+}
+.schedule-item__desc {
+  font-family: var(--font-script);
+  font-style: italic;
+  font-size: 1rem;
+  color: var(--muted-light);
+  line-height: 1.65;
+  margin: 0;
+}
+
+/* ── Registration section (ivory) ── */
+.cruise-register {
+  background: var(--ivory);
+  padding: 5rem 2rem;
+  text-align: center;
+}
+.cruise-register__inner {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.25rem;
+}
+.cruise-register h2 {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  font-size: clamp(1.4rem, 2.5vw, 1.9rem);
+  color: var(--navy);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin: 0;
+}
+.cruise-register__price {
+  font-family: var(--font-heading);
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 700;
+  color: var(--gold);
+  letter-spacing: 0.05em;
+}
+.cruise-register__note {
+  font-family: var(--font-script);
+  font-style: italic;
+  color: var(--muted);
+  font-size: 0.95rem;
+  margin: 0;
+}
+.cruise-register__prizes {
+  font-family: var(--font-script);
+  font-style: italic;
+  color: var(--muted);
+  font-size: 1.05rem;
+  line-height: 1.7;
+  margin: 0.5rem 0 0;
+}
+.btn--navy {
+  background: var(--navy);
+  color: var(--ivory);
+  border: 2px solid var(--navy);
+}
+.btn--navy:hover {
+  background: transparent;
+  color: var(--navy);
+}
+
+/* ── Latest News section (navy) ── */
+.travel-news {
+  background: var(--navy);
+  padding: 5rem 2rem;
+}
+.travel-news__inner {
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
+.travel-news h2 {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  font-size: clamp(1.4rem, 2.5vw, 1.9rem);
+  color: var(--ivory);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 2.5rem;
+}
+.news-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  text-align: left;
+}
+.news-card {
+  background: var(--ivory);
+  border-radius: 4px;
+  padding: 2rem 1.75rem;
+  flex: 0 0 calc(33.333% - 1rem);
+  min-width: 240px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.news-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+}
+.news-card__date {
+  font-family: var(--font-heading);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+  color: var(--gold);
+}
+.news-card h3 {
+  font-family: var(--font-heading);
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--navy);
+  line-height: 1.4;
+  margin: 0;
+}
+.news-card p {
+  font-family: var(--font-script);
+  font-style: italic;
+  font-size: 1rem;
+  color: var(--muted);
+  line-height: 1.65;
+  margin: 0;
+}
+.news-card .btn {
+  font-size: 0.8rem;
+  padding: 0.65rem 1.5rem;
+  align-self: flex-start;
+  margin-top: auto;
 }
