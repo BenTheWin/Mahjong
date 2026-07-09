@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Tiles &amp; Travel — Mahjong on the Mediterranean 2027 cruise and latest news from Mahjong Social at Solara, Norman OK." />
+  <meta name="description" content="Tiles &amp; Travel — upcoming Mahjong cruises and travel events from Mahjong Social at Solara, Norman OK." />
   <title>Tiles &amp; Travel | Mahjong Social at Solara — Norman, OK</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -26,148 +26,165 @@
     <span class="page-header__eyebrow">News &amp; Events</span>
   </header>
 
-  <!-- ══ Cruise Hero ══════════════════════════════════════════════════ -->
-  <section class="cruise-hero">
-    <div class="cruise-hero__inner">
+  <!-- ══ Cruises ══════════════════════════════════════════════════════ -->
+  <section class="cruises">
+    <div class="cruises__inner">
 
-      <img
-        src="images/travel-tiles/mahj-on-the-med-badge.png"
-        alt="Mahj on the Med — 2027 Mahjong Cruise"
-        class="cruise-hero__badge"
-      />
-
-      <div>
-        <span class="section-label">Featured Event</span>
-        <div class="divider"></div>
-      </div>
-
-      <h2>Mahjong on the Mediterranean</h2>
-      <p class="cruise-hero__subtitle">2027 Mahjong Cruise</p>
-
-      <!--
-        CRUISE DETAILS: Replace the paragraph below with the travel agent's
-        copy — ship name, departure port, dates, ports of call, cabin pricing,
-        booking deadline, what's included in the cruise package, etc.
-      -->
-      <p class="cruise-hero__description">
-        Set sail with fellow Mahjong enthusiasts on a Mediterranean adventure!
-        Full cruise details, itinerary, and cabin booking information are provided
-        by our travel partner.
-      </p>
-
-      <!--
-        TRAVEL AGENT LINK: Replace href="#" with the travel agent's booking URL.
-      -->
-      <a href="#" class="cruise-hero__travel-link" target="_blank" rel="noopener">
-        Book your cruise cabin through our travel agent &rarr;
-      </a>
-
-    </div>
-  </section>
-
-  <!-- ══ Activity Schedule ════════════════════════════════════════════ -->
-  <section class="cruise-schedule">
-    <div class="cruise-schedule__inner">
-
-      <span class="section-label">Mahjong Activities</span>
+      <span class="section-label">Upcoming Trips</span>
       <div class="divider"></div>
-      <h2>What&rsquo;s Included</h2>
+      <h2>Mahjong at Sea</h2>
+      <p class="cruises__intro">Select a cruise to explore the itinerary, Mahjong activities, and registration details.</p>
 
-      <div class="schedule-list">
+      <div class="cruise-cards">
 
-        <div class="schedule-item">
-          <span class="schedule-item__day">Day 1</span>
-          <div>
-            <p class="schedule-item__title">Bon Voyage</p>
-            <p class="schedule-item__desc">Opening Reception &mdash; Check In, Meet &amp; Greet, and Swag Bags!</p>
+        <!-- ══ CRUISE CARD ══════════════════════════════════════════════
+          To add a new cruise: copy this entire <article> block and paste
+          it below. Update the badge image, name, subtitle, stats, description,
+          travel agent link, schedule items, and payment link. That's it.
+        ═══════════════════════════════════════════════════════════════════ -->
+        <article class="cruise-card">
+
+          <button class="cruise-card__header" aria-expanded="false" aria-controls="cruise-med-body">
+            <img
+              src="images/travel-tiles/mahj-on-the-med-badge.png"
+              alt="Mahj on the Med badge"
+              class="cruise-card__badge"
+            />
+            <div class="cruise-card__meta">
+              <p class="cruise-card__label">Featured</p>
+              <h3 class="cruise-card__name">Mahj on the Med</h3>
+              <p class="cruise-card__subtitle">Mahjong on the Mediterranean &middot; 2027</p>
+              <div class="cruise-card__stats">
+                <span>7 Days</span>
+                <span>&middot;</span>
+                <span>$395 Mahjong Registration</span>
+              </div>
+            </div>
+            <span class="cruise-card__chevron" aria-hidden="true">&#8964;</span>
+          </button>
+
+          <div class="cruise-card__body" id="cruise-med-body">
+            <div class="cruise-card__body-inner">
+
+              <!-- Description -->
+              <div class="cruise-card__desc">
+                <!--
+                  CRUISE DETAILS: Replace with the travel agent's copy —
+                  ship name, departure port, dates, ports of call, cabin
+                  pricing, booking deadline, what's included, etc.
+                -->
+                <p class="cruise-hero__description">
+                  Set sail with fellow Mahjong enthusiasts on a Mediterranean adventure!
+                  Full cruise details, itinerary, and cabin booking information are provided
+                  by our travel partner.
+                </p>
+                <!-- TRAVEL AGENT LINK: Replace href="#" with the agent's booking URL -->
+                <a href="#" class="cruise-hero__travel-link" target="_blank" rel="noopener">
+                  Book your cruise cabin through our travel agent &rarr;
+                </a>
+              </div>
+
+              <!-- Schedule -->
+              <div class="cruise-card__sched">
+                <div class="cruise-card__sched-inner">
+                  <span class="section-label">Mahjong Activities</span>
+                  <div class="divider"></div>
+                  <h4>What&rsquo;s Included</h4>
+                  <div class="schedule-list">
+
+                    <div class="schedule-item">
+                      <span class="schedule-item__day">Day 1</span>
+                      <div>
+                        <p class="schedule-item__title">Bon Voyage</p>
+                        <p class="schedule-item__desc">Opening Reception &mdash; Check In, Meet &amp; Greet, and Swag Bags!</p>
+                      </div>
+                    </div>
+
+                    <div class="schedule-item">
+                      <span class="schedule-item__day">Day 2</span>
+                      <div>
+                        <p class="schedule-item__title">Tablescape &amp; Open Play</p>
+                        <p class="schedule-item__desc">Tablescape contest &mdash; bring your favorite Mahjong set up and compete to win great prizes! Friendly Open Play with prizes for most wins, highest score, and more.</p>
+                      </div>
+                    </div>
+
+                    <div class="schedule-item">
+                      <span class="schedule-item__day">Day 3</span>
+                      <div>
+                        <p class="schedule-item__title">Mahjong in Muumuus</p>
+                        <p class="schedule-item__desc">Wear your MuuMuu and let&rsquo;s Mahj! Round one of tournament play begins.</p>
+                      </div>
+                    </div>
+
+                    <div class="schedule-item">
+                      <span class="schedule-item__day">Day 4</span>
+                      <div>
+                        <p class="schedule-item__title">Mahjong Olympics</p>
+                        <p class="schedule-item__desc">A round of Mahjong-related games and challenges. Medals will be awarded!</p>
+                      </div>
+                    </div>
+
+                    <div class="schedule-item">
+                      <span class="schedule-item__day">Day 5</span>
+                      <div>
+                        <p class="schedule-item__title">Strategy is Key</p>
+                        <p class="schedule-item__desc">Short 2027 NMJL Card strategy &amp; skill-building workshop. Round two of tournament play!</p>
+                      </div>
+                    </div>
+
+                    <div class="schedule-item">
+                      <span class="schedule-item__day">Day 6</span>
+                      <div>
+                        <p class="schedule-item__title">Tournament Finale</p>
+                        <p class="schedule-item__desc">Final round of tournament play, awards ceremony, and grand prizes giveaway.</p>
+                      </div>
+                    </div>
+
+                    <div class="schedule-item">
+                      <span class="schedule-item__day">Day 7</span>
+                      <div>
+                        <p class="schedule-item__title">Venetian Masquerade</p>
+                        <p class="schedule-item__desc">As we sail into Venice &mdash; masquerade party! Grab your mask for final rounds of social play and goodbyes.</p>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+              <!-- Registration -->
+              <div class="cruise-card__reg">
+                <div class="cruise-card__reg-inner">
+                  <span class="section-label">Register Now</span>
+                  <div class="divider"></div>
+                  <h4>Mahjong Registration</h4>
+                  <p class="cruise-register__price">$395</p>
+                  <p class="cruise-register__note">Registration fee is non-refundable. Cruise cabin booked separately through travel agent.</p>
+                  <p class="cruise-register__prizes">
+                    <strong>Included:</strong> Swag bag, all Mahjong activities, and tournament entry.<br />
+                    <strong>Prizes:</strong> Mahjong accessories, spa credits, hats, cash, and more.<br />
+                    <strong>Grand Prize:</strong> Mahjong Bundle &mdash; matching tiles, mat, racks &amp; shufflers.
+                  </p>
+                  <!-- PAYMENT LINK: Replace href="#" with your Square/PayPal URL -->
+                  <a href="#" class="btn btn--navy" target="_blank" rel="noopener">
+                    Register &amp; Pay &mdash; $395
+                  </a>
+                </div>
+              </div>
+
+            </div>
           </div>
-        </div>
 
-        <div class="schedule-item">
-          <span class="schedule-item__day">Day 2</span>
-          <div>
-            <p class="schedule-item__title">Tablescape &amp; Open Play</p>
-            <p class="schedule-item__desc">Tablescape contest &mdash; bring your favorite Mahjong set up and compete to win great prizes! Friendly Open Play with prizes for most wins, highest score, and more.</p>
-          </div>
-        </div>
-
-        <div class="schedule-item">
-          <span class="schedule-item__day">Day 3</span>
-          <div>
-            <p class="schedule-item__title">Mahjong in Muumuus</p>
-            <p class="schedule-item__desc">Wear your MuuMuu and let&rsquo;s Mahj! Round one of tournament play begins.</p>
-          </div>
-        </div>
-
-        <div class="schedule-item">
-          <span class="schedule-item__day">Day 4</span>
-          <div>
-            <p class="schedule-item__title">Mahjong Olympics</p>
-            <p class="schedule-item__desc">A round of Mahjong-related games and challenges. Medals will be awarded!</p>
-          </div>
-        </div>
-
-        <div class="schedule-item">
-          <span class="schedule-item__day">Day 5</span>
-          <div>
-            <p class="schedule-item__title">Strategy is Key</p>
-            <p class="schedule-item__desc">Short 2027 NMJL Card strategy &amp; skill-building workshop. Round two of tournament play!</p>
-          </div>
-        </div>
-
-        <div class="schedule-item">
-          <span class="schedule-item__day">Day 6</span>
-          <div>
-            <p class="schedule-item__title">Tournament Finale</p>
-            <p class="schedule-item__desc">Final round of tournament play, awards ceremony, and grand prizes giveaway.</p>
-          </div>
-        </div>
-
-        <div class="schedule-item">
-          <span class="schedule-item__day">Day 7</span>
-          <div>
-            <p class="schedule-item__title">Venetian Masquerade</p>
-            <p class="schedule-item__desc">As we sail into Venice &mdash; masquerade party! Grab your mask for final rounds of social play and goodbyes.</p>
-          </div>
-        </div>
+        </article>
+        <!-- END CRUISE CARD -->
 
       </div>
-    </div>
-  </section>
-
-  <!-- ══ Registration ══════════════════════════════════════════════════ -->
-  <section class="cruise-register">
-    <div class="cruise-register__inner">
-
-      <span class="section-label">Register Now</span>
-      <div class="divider"></div>
-
-      <h2>Mahjong Registration</h2>
-      <p class="cruise-register__price">$395</p>
-      <p class="cruise-register__note">Registration fee is non-refundable. Cruise cabin booked separately through travel agent.</p>
-
-      <p class="cruise-register__prizes">
-        <strong>Included:</strong> Swag bag, all Mahjong activities, and tournament entry.<br />
-        <strong>Prizes:</strong> Mahjong accessories, spa credits, hats, cash, and more.<br />
-        <strong>Grand Prize:</strong> Mahjong Bundle &mdash; matching tiles, mat, racks &amp; shufflers.
-      </p>
-
-      <!--
-        PAYMENT LINK: Replace href="#" with your Square Payment Link or PayPal.me URL.
-        Example: href="https://square.link/u/xxxxxxxx"
-      -->
-      <a href="#" class="btn btn--navy" target="_blank" rel="noopener">
-        Register &amp; Pay &mdash; $395
-      </a>
-
     </div>
   </section>
 
   <!-- ══ Latest News ═══════════════════════════════════════════════════
     To add a new announcement: copy one .news-card block, update the date,
-    heading, body text, and optionally the button link. Delete the button
-    if there's nothing to link to. Remove this entire section if there are
-    no other news items beyond the cruise.
+    heading, and body text. Delete the <a> button if there's nothing to link.
   ══════════════════════════════════════════════════════════════════════ -->
   <section class="travel-news">
     <div class="travel-news__inner">
@@ -189,6 +206,27 @@
       </div>
     </div>
   </section>
+
+  <script>
+    document.querySelectorAll('.cruise-card__header').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var card = btn.closest('.cruise-card');
+        var isOpen = card.classList.contains('cruise-card--open');
+
+        // Close all open cards first
+        document.querySelectorAll('.cruise-card--open').forEach(function (c) {
+          c.classList.remove('cruise-card--open');
+          c.querySelector('.cruise-card__header').setAttribute('aria-expanded', 'false');
+        });
+
+        // If this card was closed, open it
+        if (!isOpen) {
+          card.classList.add('cruise-card--open');
+          btn.setAttribute('aria-expanded', 'true');
+        }
+      });
+    });
+  </script>
 
   <script src="components/mobile-menu.js" defer></script>
   <script src="components/footer.js" defer></script>
