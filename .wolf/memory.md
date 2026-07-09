@@ -595,3 +595,95 @@
 | 17:09 | Edited components/nav.js | 2→3 lines | ~49 |
 | 17:10 | Created travel-tiles.html | — | ~2086 |
 | 17:10 | Built Travel & Tiles page — Mahj on the Med cruise promo, 7-day schedule, $395 registration, news section; --navy var + full CSS added to main.css; nav updated | travel-tiles.html, nav.js, main.css, images/travel-tiles/, anatomy.md | complete, not pushed | ~4k |
+| 17:11 | Session end: 6 writes across 4 files (hey-been-a-while-sharded-cupcake.md, main.css, nav.js, travel-tiles.html) | 6 reads | ~27713 tok |
+
+## Session: 2026-06-29 17:21
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 17:26 | Edited components/nav.js | 6→6 lines | ~110 |
+| 17:26 | Edited components/footer.js | 3→4 lines | ~48 |
+| 17:26 | Edited components/mobile-menu.js | 2→3 lines | ~41 |
+| 17:26 | Edited travel-tiles.html | 10→7 lines | ~100 |
+| 17:27 | Edited styles/main.css | expanded (+13 lines) | ~132 |
+| 17:27 | Session end: 5 writes across 5 files (nav.js, footer.js, mobile-menu.js, travel-tiles.html, main.css) | 3 reads | ~8972 tok |
+| 17:31 | Edited components/nav.js | inline fix | ~6 |
+| 17:31 | Edited components/mobile-menu.js | inline fix | ~6 |
+| 17:31 | Edited components/footer.js | inline fix | ~6 |
+| 17:31 | Edited travel-tiles.html | inline fix | ~5 |
+| 17:31 | Edited styles/main.css | inline fix | ~4 |
+| 17:31 | Session end: 10 writes across 5 files (nav.js, footer.js, mobile-menu.js, travel-tiles.html, main.css) | 3 reads | ~9000 tok |
+
+## Session: 2026-07-03 21:07
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-07-03 21:07
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-07-03 21:07
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-07-06 13:54
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-07-06 13:55
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-07-09 19:00
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-07-09 19:00
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-07-09 19:01
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-07-09 19:01
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 19:42 | Created travel-tiles.html | — | ~2811 |
+| 19:43 | Edited styles/main.css | modified media() | ~1095 |
+| 19:43 | Session end: 2 writes across 2 files (travel-tiles.html, main.css) | 1 reads | ~12753 tok |
+| 19:47 | Edited styles/main.css | 4→4 lines | ~18 |
+| 19:47 | Edited styles/main.css | 9→9 lines | ~58 |
+| 19:48 | Edited styles/main.css | expanded (+18 lines) | ~147 |
+| 19:48 | Edited faq.html | expanded (+8 lines) | ~633 |
+| 19:48 | Edited faq.html | added 1 condition(s) | ~148 |
+| 19:48 | Session end: 7 writes across 3 files (travel-tiles.html, main.css, faq.html) | 2 reads | ~16751 tok |
+| 19:51 | Edited styles/main.css | CSS: transform, transform | ~204 |
+| 19:51 | Edited faq.html | modified forEach() | ~177 |
+| 19:51 | Session end: 9 writes across 3 files (travel-tiles.html, main.css, faq.html) | 2 reads | ~17271 tok |
+| 19:57 | Edited about.html | 3→4 lines | ~49 |
+| 19:57 | Edited faq.html | 3→4 lines | ~52 |
+| 19:57 | Edited travel-tiles.html | 8→5 lines | ~60 |
+| 19:58 | Session end: 12 writes across 4 files (travel-tiles.html, main.css, faq.html, about.html) | 3 reads | ~18619 tok |
+
+## Session: 2026-07-09 20:15
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 20:15 | Edited travel-tiles.html | expanded (+106 lines) | ~1486 |
+| 20:16 | Edited travel-tiles.html | 4→3 lines | ~55 |
+| 20:16 | Session end: 2 writes across 1 files (travel-tiles.html) | 0 reads | ~1650 tok |
+| 20:21 | designqc: captured 2 screenshots (26KB, ~5000 tok) | / | ready for eval | ~0 |
+| 20:22 | designqc: captured 0 screenshots (0KB, ~0 tok) | C:/Program Files/Git/travel-tiles.html /index.html /faq.html /about.html | ready for eval | ~0 |
+| 20:22 | designqc: captured 2 screenshots (26KB, ~5000 tok) | / | ready for eval | ~0 |
+| 20:22 | Created ../../Users/Reela/AppData/Local/Temp/claude/c--Code-Mahjong/bb3c19bc-3b58-4d61-8fa3-81448e65544b/scratchpad/mobile-check.js | — | ~306 |
+| 20:24 | Session end: 3 writes across 2 files (travel-tiles.html, mobile-check.js) | 4 reads | ~1956 tok |

@@ -288,6 +288,616 @@
       "related_bugs": [],
       "occurrences": 2,
       "last_seen": "2026-05-06T23:32:12.048Z"
+    },
+    {
+      "id": "bug-019",
+      "timestamp": "2026-05-06T23:45:11.467Z",
+      "error_message": "Incorrect value in code",
+      "file": "about.html",
+      "root_cause": "Had \"btn btn--outline-green\"",
+      "fix": "Changed to \"btn btn--gold\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "html"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-05-06T23:45:11.467Z"
+    },
+    {
+      "id": "bug-020",
+      "timestamp": "2026-05-06T23:45:23.384Z",
+      "error_message": "Incorrect value in code",
+      "file": "faq.html",
+      "root_cause": "Had \"https://nationalmahjonggleague.org/store.aspx#\"",
+      "fix": "Changed to \"link--gold\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "html"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-05-06T23:45:23.384Z"
+    },
+    {
+      "id": "bug-021",
+      "timestamp": "2026-05-06T23:58:27.379Z",
+      "error_message": "CSS fix: flex",
+      "file": "styles/main.css",
+      "root_cause": "flex: 1 → 0 0 calc(33.333% - 1rem)",
+      "fix": "Changed flex: 1 → 0 0 calc(33.333% - 1rem)",
+      "tags": [
+        "auto-detected",
+        "style-fix",
+        "css"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-05-06T23:58:27.379Z"
+    },
+    {
+      "id": "bug-022",
+      "timestamp": "2026-05-07T00:17:09.257Z",
+      "error_message": "Significant refactor of ",
+      "file": "styles/main.css",
+      "root_cause": "4 lines replaced/restructured",
+      "fix": "Rewrote 8→13 lines (4 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "css"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-05-07T00:17:09.257Z"
+    },
+    {
+      "id": "bug-023",
+      "timestamp": "2026-05-07T00:17:41.249Z",
+      "error_message": "Incorrect value in code",
+      "file": "index.html",
+      "root_cause": "Had \"components/footer.js\"",
+      "fix": "Changed to \"components/mobile-menu.js\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "html"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-05-07T00:17:41.249Z"
+    },
+    {
+      "id": "bug-024",
+      "timestamp": "2026-05-07T00:17:45.526Z",
+      "error_message": "Incorrect value in code",
+      "file": "about.html",
+      "root_cause": "Had \"components/footer.js\"",
+      "fix": "Changed to \"components/mobile-menu.js\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "html"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-05-07T00:17:45.526Z"
+    },
+    {
+      "id": "bug-025",
+      "timestamp": "2026-05-07T00:17:46.627Z",
+      "error_message": "Incorrect value in code",
+      "file": "booking.html",
+      "root_cause": "Had \"components/footer.js\"",
+      "fix": "Changed to \"components/mobile-menu.js\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "html"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-05-07T00:17:46.627Z"
+    },
+    {
+      "id": "bug-026",
+      "timestamp": "2026-05-07T00:17:47.727Z",
+      "error_message": "Incorrect value in code",
+      "file": "contact.html",
+      "root_cause": "Had \"components/footer.js\"",
+      "fix": "Changed to \"components/mobile-menu.js\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "html"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-05-07T00:17:47.727Z"
+    },
+    {
+      "id": "bug-027",
+      "timestamp": "2026-05-07T00:17:48.847Z",
+      "error_message": "Incorrect value in code",
+      "file": "contact-thanks.html",
+      "root_cause": "Had \"components/footer.js\"",
+      "fix": "Changed to \"components/mobile-menu.js\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "html"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-05-07T00:17:48.847Z"
+    },
+    {
+      "id": "bug-028",
+      "timestamp": "2026-05-07T00:17:49.937Z",
+      "error_message": "Incorrect value in code",
+      "file": "faq.html",
+      "root_cause": "Had \"components/footer.js\"",
+      "fix": "Changed to \"components/mobile-menu.js\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "html"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-05-07T00:17:49.937Z"
+    },
+    {
+      "id": "bug-029",
+      "timestamp": "2026-05-07T00:17:51.052Z",
+      "error_message": "Incorrect value in code",
+      "file": "location.html",
+      "root_cause": "Had \"components/footer.js\"",
+      "fix": "Changed to \"components/mobile-menu.js\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "html"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-05-07T00:17:51.052Z"
+    },
+    {
+      "id": "bug-030",
+      "timestamp": "2026-05-15T01:16:07.385Z",
+      "error_message": "Wrong reference: head should be link",
+      "file": "index.html",
+      "root_cause": "Used \"head\" instead of \"link\"",
+      "fix": "Changed head → link",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "html"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-05-15T01:16:07.385Z"
+    },
+    {
+      "id": "bug-031",
+      "timestamp": "2026-05-15T01:16:27.738Z",
+      "error_message": "Wrong reference: head should be link",
+      "file": "about.html",
+      "root_cause": "Used \"head\" instead of \"link\"",
+      "fix": "Changed head → link",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "html"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-05-15T01:16:27.738Z"
+    },
+    {
+      "id": "bug-032",
+      "timestamp": "2026-05-15T01:16:29.204Z",
+      "error_message": "Wrong reference: head should be link",
+      "file": "booking.html",
+      "root_cause": "Used \"head\" instead of \"link\"",
+      "fix": "Changed head → link",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "html"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-05-15T01:16:29.204Z"
+    },
+    {
+      "id": "bug-033",
+      "timestamp": "2026-05-15T01:16:30.590Z",
+      "error_message": "Wrong reference: head should be link",
+      "file": "contact.html",
+      "root_cause": "Used \"head\" instead of \"link\"",
+      "fix": "Changed head → link",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "html"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-05-15T01:16:30.590Z"
+    },
+    {
+      "id": "bug-034",
+      "timestamp": "2026-05-15T01:16:31.698Z",
+      "error_message": "Wrong reference: head should be link",
+      "file": "contact-thanks.html",
+      "root_cause": "Used \"head\" instead of \"link\"",
+      "fix": "Changed head → link",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "html"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-05-15T01:16:31.698Z"
+    },
+    {
+      "id": "bug-035",
+      "timestamp": "2026-05-15T01:16:32.854Z",
+      "error_message": "Wrong reference: head should be link",
+      "file": "faq.html",
+      "root_cause": "Used \"head\" instead of \"link\"",
+      "fix": "Changed head → link",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "html"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-05-15T01:16:32.854Z"
+    },
+    {
+      "id": "bug-036",
+      "timestamp": "2026-05-15T01:16:33.958Z",
+      "error_message": "Wrong reference: head should be link",
+      "file": "location.html",
+      "root_cause": "Used \"head\" instead of \"link\"",
+      "fix": "Changed head → link",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "html"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-05-15T01:16:33.958Z"
+    },
+    {
+      "id": "bug-037",
+      "timestamp": "2026-05-15T01:16:45.433Z",
+      "error_message": "Incorrect value in code",
+      "file": "index.html",
+      "root_cause": "Had \"Images/NavBarMahjongTempLogo.png\"",
+      "fix": "Changed to \"Images/circle.svg\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "html"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-05-15T01:16:45.433Z"
+    },
+    {
+      "id": "bug-038",
+      "timestamp": "2026-05-15T01:16:46.887Z",
+      "error_message": "Incorrect value in code",
+      "file": "about.html",
+      "root_cause": "Had \"Images/NavBarMahjongTempLogo.png\"",
+      "fix": "Changed to \"Images/circle.svg\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "html"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-05-15T01:16:46.887Z"
+    },
+    {
+      "id": "bug-039",
+      "timestamp": "2026-05-15T01:16:48.301Z",
+      "error_message": "Incorrect value in code",
+      "file": "booking.html",
+      "root_cause": "Had \"Images/NavBarMahjongTempLogo.png\"",
+      "fix": "Changed to \"Images/circle.svg\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "html"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-05-15T01:16:48.301Z"
+    },
+    {
+      "id": "bug-040",
+      "timestamp": "2026-05-15T01:16:49.692Z",
+      "error_message": "Incorrect value in code",
+      "file": "contact.html",
+      "root_cause": "Had \"Images/NavBarMahjongTempLogo.png\"",
+      "fix": "Changed to \"Images/circle.svg\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "html"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-05-15T01:16:49.692Z"
+    },
+    {
+      "id": "bug-041",
+      "timestamp": "2026-05-15T01:16:50.777Z",
+      "error_message": "Incorrect value in code",
+      "file": "contact-thanks.html",
+      "root_cause": "Had \"Images/NavBarMahjongTempLogo.png\"",
+      "fix": "Changed to \"Images/circle.svg\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "html"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-05-15T01:16:50.777Z"
+    },
+    {
+      "id": "bug-042",
+      "timestamp": "2026-05-15T01:16:51.970Z",
+      "error_message": "Incorrect value in code",
+      "file": "faq.html",
+      "root_cause": "Had \"Images/NavBarMahjongTempLogo.png\"",
+      "fix": "Changed to \"Images/circle.svg\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "html"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-05-15T01:16:51.970Z"
+    },
+    {
+      "id": "bug-043",
+      "timestamp": "2026-05-15T01:16:53.151Z",
+      "error_message": "Incorrect value in code",
+      "file": "location.html",
+      "root_cause": "Had \"Images/NavBarMahjongTempLogo.png\"",
+      "fix": "Changed to \"Images/circle.svg\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "html"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-05-15T01:16:53.151Z"
+    },
+    {
+      "id": "bug-044",
+      "timestamp": "2026-05-15T01:26:41.993Z",
+      "error_message": "CSS fix: justify-content",
+      "file": "styles/main.css",
+      "root_cause": "justify-content: space-between → center",
+      "fix": "Changed justify-content: space-between → center",
+      "tags": [
+        "auto-detected",
+        "style-fix",
+        "css"
+      ],
+      "related_bugs": [],
+      "occurrences": 2,
+      "last_seen": "2026-05-15T01:30:46.265Z"
+    },
+    {
+      "id": "bug-045",
+      "timestamp": "2026-05-15T02:08:41.100Z",
+      "error_message": "Incorrect value in code",
+      "file": "location.html",
+      "root_cause": "Had \"https://maps.google.com/maps?q=1370+N+Interstate+",
+      "fix": "Changed to \"https://maps.google.com/maps?q=Mahjong+Social+OK&",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "html"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-05-15T02:08:41.100Z"
+    },
+    {
+      "id": "bug-046",
+      "timestamp": "2026-06-01T02:01:24.964Z",
+      "error_message": "Incorrect value in code",
+      "file": "styles/main.css",
+      "root_cause": "Had '../Images/HeroPicture.jpg'",
+      "fix": "Changed to '../Images/HeroPicture.webp'",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "css"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-06-01T02:01:24.964Z"
+    },
+    {
+      "id": "bug-047",
+      "timestamp": "2026-06-01T02:01:26.062Z",
+      "error_message": "Incorrect value in code",
+      "file": "index.html",
+      "root_cause": "Had \"/Images/HeroPicture.jpg\"",
+      "fix": "Changed to \"/Images/HeroPicture.webp\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "html"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-06-01T02:01:26.062Z"
+    },
+    {
+      "id": "bug-048",
+      "timestamp": "2026-05-31T00:00:00.000Z",
+      "error_message": "Mobile hamburger menu disappeared after deferring nav.js",
+      "file": "all HTML pages",
+      "root_cause": "mobile-menu.js ran synchronously at end of body while nav.js was deferred — nav HTML didn't exist yet when mobile-menu.js tried to wire up the hamburger button",
+      "fix": "Added defer to mobile-menu.js and footer.js on all pages so execution order is preserved: nav.js first, then mobile-menu.js, then footer.js",
+      "tags": [
+        "mobile",
+        "navigation",
+        "defer",
+        "timing",
+        "js"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-05-31T00:00:00.000Z"
+    },
+    {
+      "id": "bug-049",
+      "timestamp": "2026-06-29T22:09:02.609Z",
+      "error_message": "CSS fix: padding",
+      "file": "styles/main.css",
+      "root_cause": "padding: 3.5rem 1.25rem → 0.65rem 1.5rem",
+      "fix": "Changed padding: 3.5rem 1.25rem → 0.65rem 1.5rem",
+      "tags": [
+        "auto-detected",
+        "style-fix",
+        "css"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-06-29T22:09:02.609Z"
+    },
+    {
+      "id": "bug-050",
+      "timestamp": "2026-06-29T22:09:15.429Z",
+      "error_message": "Incorrect value in code",
+      "file": "components/nav.js",
+      "root_cause": "Had \">FAQ</a></li>'",
+      "fix": "Changed to \">Travel &amp; Tiles</a></li>'",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "js"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-06-29T22:09:15.429Z"
+    },
+    {
+      "id": "bug-051",
+      "timestamp": "2026-06-29T22:26:56.521Z",
+      "error_message": "Significant refactor of ",
+      "file": "travel-tiles.html",
+      "root_cause": "6 lines replaced/restructured",
+      "fix": "Rewrote 10→7 lines (6 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "html"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-06-29T22:26:56.521Z"
+    },
+    {
+      "id": "bug-052",
+      "timestamp": "2026-06-29T22:27:08.181Z",
+      "error_message": "CSS fix: color",
+      "file": "styles/main.css",
+      "root_cause": "color: var(--gold) → var(--gold) !important",
+      "fix": "Changed color: var(--gold) → var(--gold) !important",
+      "tags": [
+        "auto-detected",
+        "style-fix",
+        "css"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-06-29T22:27:08.181Z"
+    },
+    {
+      "id": "bug-053",
+      "timestamp": "2026-07-09T00:43:17.612Z",
+      "error_message": "CSS fix: font-size, padding",
+      "file": "styles/main.css",
+      "root_cause": "font-size: 0.8rem → 0.95rem; padding: 0.65rem 1.5rem → 1.25rem",
+      "fix": "Changed font-size: 0.8rem → 0.95rem; padding: 0.65rem 1.5rem → 1.25rem",
+      "tags": [
+        "auto-detected",
+        "style-fix",
+        "css"
+      ],
+      "related_bugs": [],
+      "occurrences": 4,
+      "last_seen": "2026-07-09T00:51:01.120Z"
+    },
+    {
+      "id": "bug-054",
+      "timestamp": "2026-07-09T00:48:26.303Z",
+      "error_message": "Missing guard clause",
+      "file": "faq.html",
+      "root_cause": "No early return/throw for edge case: !details.open",
+      "fix": "Added guard clause: if (!details.open)",
+      "tags": [
+        "auto-detected",
+        "guard-clause",
+        "html"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-07-09T00:48:26.303Z"
+    },
+    {
+      "id": "bug-055",
+      "timestamp": "2026-07-09T00:57:59.553Z",
+      "error_message": "Significant refactor of ",
+      "file": "travel-tiles.html",
+      "root_cause": "5 lines replaced/restructured",
+      "fix": "Rewrote 8→5 lines (5 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "html"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-07-09T00:57:59.553Z"
+    },
+    {
+      "id": "bug-056",
+      "timestamp": "2026-07-09T01:15:58.854Z",
+      "error_message": "Significant refactor of ",
+      "file": "travel-tiles.html",
+      "root_cause": "2 lines replaced/restructured",
+      "fix": "Rewrote 18→124 lines (2 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "html"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-07-09T01:15:58.854Z"
     }
   ]
 }
