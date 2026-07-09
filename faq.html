@@ -88,32 +88,53 @@
 
       <details class="about-faq__item">
         <summary>Do I need to buy or bring anything?</summary>
-        <p>Yes &mdash; you will need to bring a <strong>National Mah Jongg League 2026 Rules and Hands card</strong>. Cards are $14 on the official NMJL website: <a class="link--gold" href="https://nationalmahjonggleague.org/store.aspx#" target="_blank" rel="noopener noreferrer">nationalmahjonggleague.org/store.aspx</a>.</p>
-        <p>We provide everything else you need to play. Just bring yourself and your card, and we'll take care of the rest!</p>
+        <div class="faq-body"><div class="faq-body-inner">
+          <p>Yes &mdash; you will need to bring a <strong>National Mah Jongg League 2026 Rules and Hands card</strong>. Cards are $14 on the official NMJL website: <a class="link--gold" href="https://nationalmahjonggleague.org/store.aspx#" target="_blank" rel="noopener noreferrer">nationalmahjonggleague.org/store.aspx</a>.</p>
+          <p>We provide everything else you need to play. Just bring yourself and your card, and we'll take care of the rest!</p>
+        </div></div>
       </details>
       <hr class="about-faq__divider">
 
       <details class="about-faq__item">
         <summary>Can beginners attend open play events?</summary>
-        <p>Yes! You do not need much experience to attend open play, but please make sure you've had at least one beginner class and have a basic understanding of the game. We place beginners together and there is always a coach to help when needed. It's a wonderful way to learn in a relaxed setting.</p>
+        <div class="faq-body"><div class="faq-body-inner">
+          <p>Yes! You do not need much experience to attend open play, but please make sure you've had at least one beginner class and have a basic understanding of the game. We place beginners together and there is always a coach to help when needed. It's a wonderful way to learn in a relaxed setting.</p>
+        </div></div>
       </details>
       <hr class="about-faq__divider">
 
       <details class="about-faq__item">
         <summary>Do you offer Corporate and/or Fundraising events?</summary>
-        <p>Yes! Corporate mahjong events make for a fantastic and memorable team-building activity. Fundraising events are a great way to raise funds for our community, and we would love to help you do that. <a href="contact.html">Reach out</a> to discuss packages, group size, and availability.</p>
+        <div class="faq-body"><div class="faq-body-inner">
+          <p>Yes! Corporate mahjong events make for a fantastic and memorable team-building activity. Fundraising events are a great way to raise funds for our community, and we would love to help you do that. <a href="contact.html">Reach out</a> to discuss packages, group size, and availability.</p>
+        </div></div>
       </details>
       <hr class="about-faq__divider">
 
       <details class="about-faq__item">
         <summary>I need to cancel or reschedule. What is your policy?</summary>
-        <p>Please <a href="contact.html">contact us</a> at least 24 hours before your scheduled session for a reschedule or refund. Late cancellations may be subject to a fee or loss of open play payment. If you can find someone to take your place, we can transfer your spot to them &mdash; always reach out and we'll do our best to work with you.</p>
+        <div class="faq-body"><div class="faq-body-inner">
+          <p>Please <a href="contact.html">contact us</a> at least 24 hours before your scheduled session for a reschedule or refund. Late cancellations may be subject to a fee or loss of open play payment. If you can find someone to take your place, we can transfer your spot to them &mdash; always reach out and we'll do our best to work with you.</p>
+        </div></div>
       </details>
 
     </div>
   </section>
 
-  <!-- FOOTER -->
+  <script>
+    document.querySelectorAll('.about-faq__item').forEach(function (details) {
+      details.querySelector('summary').addEventListener('click', function (e) {
+        if (!details.open) return;
+        e.preventDefault();
+        details.classList.add('faq-closing');
+        setTimeout(function () {
+          details.open = false;
+          details.classList.remove('faq-closing');
+        }, 350);
+      });
+    });
+  </script>
+
   <script src="components/mobile-menu.js" defer></script>
   <script src="components/footer.js" defer></script>
 
