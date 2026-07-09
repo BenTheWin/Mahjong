@@ -124,13 +124,20 @@
   <script>
     document.querySelectorAll('.about-faq__item').forEach(function (details) {
       details.querySelector('summary').addEventListener('click', function (e) {
-        if (!details.open) return;
         e.preventDefault();
-        details.classList.add('faq-closing');
-        setTimeout(function () {
-          details.open = false;
-          details.classList.remove('faq-closing');
-        }, 350);
+        if (details.open) {
+          details.classList.remove('faq-opening');
+          details.classList.add('faq-closing');
+          setTimeout(function () {
+            details.open = false;
+            details.classList.remove('faq-closing');
+          }, 350);
+        } else {
+          details.open = true;
+          requestAnimationFrame(function () {
+            details.classList.add('faq-opening');
+          });
+        }
       });
     });
   </script>

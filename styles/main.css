@@ -795,11 +795,15 @@ ul { list-style: none; }
   font-weight: 400;
   color: var(--gold);
   flex-shrink: 0;
-  transition: transform 0.2s ease;
+  display: inline-block;
+  transition: transform 0.35s ease;
 }
 
-.about-faq__item[open] summary::after {
-  content: '\00D7';
+.about-faq__item.faq-opening summary::after {
+  transform: rotate(45deg);
+}
+.about-faq__item.faq-closing summary::after {
+  transform: rotate(0deg);
 }
 
 /* Smooth expand/collapse for FAQ items */
@@ -808,7 +812,6 @@ details.about-faq__item > .faq-body {
   grid-template-rows: 0fr;
   transition: grid-template-rows 0.35s ease;
 }
-details.about-faq__item[open] > .faq-body,
 details.about-faq__item.faq-opening > .faq-body {
   grid-template-rows: 1fr;
 }
