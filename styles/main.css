@@ -1218,6 +1218,37 @@ details.about-faq__item.faq-closing > .faq-body {
 }
 .cruise-hero__travel-link:hover { color: var(--gold-deep); }
 
+.cruise-agent {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+.cruise-agent__label {
+  font-family: var(--font-heading);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: var(--muted);
+  margin: 0;
+}
+.cruise-agent__name {
+  font-family: var(--font-heading);
+  font-size: 0.95rem;
+  color: var(--navy);
+  margin: 0.15rem 0 0.1rem;
+  letter-spacing: 0.05em;
+}
+.cruise-agent__contact {
+  font-family: var(--font-script);
+  font-style: italic;
+  font-size: 1rem;
+  color: var(--gold);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.cruise-agent__contact:hover { color: var(--gold-deep); }
+
 /* ── Activity schedule section (navy) ── */
 .cruise-schedule {
   background: var(--navy);
