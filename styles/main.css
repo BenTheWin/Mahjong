@@ -1290,6 +1290,7 @@ details.about-faq__item.faq-closing > .faq-body {
   letter-spacing: 0.25em;
   color: var(--gold);
   padding-top: 0.2rem;
+  line-height: 1.6;
 }
 .schedule-item__title {
   font-family: var(--font-heading);
