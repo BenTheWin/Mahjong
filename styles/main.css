@@ -1038,13 +1038,13 @@ details.about-faq__item.faq-closing > .faq-body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 2rem;
-  margin-bottom: 2.5rem;
+  padding-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .mobile-menu__logo {
-  width: 140px;
-  height: 140px;
+  width: 100px;
+  height: 100px;
 }
 
 .mobile-menu__close {
@@ -1075,7 +1075,7 @@ details.about-faq__item.faq-closing > .faq-body {
   letter-spacing: 0.2em;
   text-transform: uppercase;
   color: var(--ivory);
-  padding: 1rem 0;
+  padding: 0.75rem 0;
   text-align: center;
   border-bottom: 1px solid rgba(247, 244, 237, 0.1);
   transition: color 0.2s ease;
