@@ -1276,7 +1276,7 @@ details.about-faq__item.faq-closing > .faq-body {
 }
 .schedule-item {
   display: grid;
-  grid-template-columns: 5rem 1fr;
+  grid-template-columns: auto 1fr;
   gap: 1.25rem;
   padding: 1.5rem 0;
   border-bottom: 1px solid rgba(247, 244, 237, 0.12);
