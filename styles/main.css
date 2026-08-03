@@ -1612,6 +1612,57 @@ details.about-faq__item.faq-closing > .faq-body {
   margin: 0;
 }
 
+.cruise-reg-options {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+}
+.cruise-reg-option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1.5rem 1.25rem;
+  background: rgba(27, 50, 104, 0.06);
+  border: 1px solid rgba(27, 50, 104, 0.15);
+  border-radius: 4px;
+}
+.cruise-reg-option--bundle {
+  border-color: var(--gold);
+  background: rgba(193, 157, 85, 0.06);
+}
+.cruise-reg-option__name {
+  font-family: var(--font-heading);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: var(--navy);
+  margin: 0;
+}
+.cruise-reg-option--bundle .cruise-reg-option__name {
+  color: var(--gold-deep);
+}
+.cruise-reg-option__includes {
+  font-family: var(--font-script);
+  font-style: italic;
+  font-size: 0.95rem;
+  color: var(--muted);
+  margin: 0;
+  line-height: 1.6;
+  text-align: center;
+}
+.cruise-reg-option__notice {
+  font-family: var(--font-heading);
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--gold-deep);
+  margin: 0.25rem 0 0;
+  text-align: center;
+  line-height: 1.5;
+}
+
 @media (max-width: 640px) {
   .cruise-card__header { padding: 1.5rem; gap: 1.25rem; }
   .cruise-card__badge { width: 72px; height: 72px; }
