@@ -20,6 +20,6 @@ document.currentScript.insertAdjacentHTML('afterend', `
         </svg>
       </a>
     </div>
-    <p class="footer__copy">&copy; 2026 Mahjong Social at Solara. All rights reserved.</p>
+    <p class="footer__copy">&copy; ${new Date().getFullYear()} Mahjong Social at Solara. All rights reserved.</p>
   </footer>
 `);

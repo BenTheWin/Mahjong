@@ -952,6 +952,17 @@ details.about-faq__item.faq-closing > .faq-body {
   margin-top: 0.5rem;
 }
 
+.contact-form .btn:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
+
+.contact-form__error {
+  color: #9B2C2C;
+  font-size: 0.95rem;
+  margin: 0;
+}
+
 .contact__thanks {
   text-align: center;
 }
